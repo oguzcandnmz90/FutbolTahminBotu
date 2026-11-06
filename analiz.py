@@ -547,7 +547,7 @@ for row in bugun_maclari:
              f"🧤 KG VAR: {len(gecmis[(gecmis['FTHG']>0) & (gecmis['FTAG']>0)])}x | KG YOK: {len(gecmis[~((gecmis['FTHG']>0) & (gecmis['FTAG']>0))])}x\n"
              f"📊 2.5 ÜST: {len(gecmis[gecmis['FTHG']+gecmis['FTAG'] >= 3])}x | 2.5 ALT: {len(gecmis[gecmis['FTHG']+gecmis['FTAG'] < 3])}x\n"
              f"⚽ GOL ORT: E({bu_sezon_ev[bu_sezon_ev['HomeTeam']==ev]['FTHG'].mean():.1f}) D({bu_sezon_dep[bu_sezon_dep['AwayTeam']==dep]['FTAG'].mean():.1f})\n"
-             f"🚩 KORNER ORT: E({bu_sezon_ev['HC'].main() if 'HC' in bu_sezon_ev else 0:.1f} saha) D({bu_sezon_dep['AC'].mean() if 'AC' in bu_sezon_dep else 0:.1f})\n"
+             f"🚩 KORNER ORT: E({bu_sezon_ev['HC'].min() if 'HC' in bu_sezon_ev else 0:.1f} saha) D({bu_sezon_dep['AC'].mean() if 'AC' in bu_sezon_dep else 0:.1f})\n"
              f"📈 FORM: E({ev_seri}) D({dep_seri})\n───────────────")
     analizler_listesi.append(rapor)
 
