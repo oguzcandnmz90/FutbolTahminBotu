@@ -28,7 +28,6 @@ try:
     LOG_DOSYASI = os.path.join(DRIVE_KLASOR, "tahmin_gecmisi.json")
     print("📁 Google Drive log klasörü aktif: ", LOG_DOSYASI)
 except:
-    # Colab dışı bir ortamda (bilgisayarda veya GitHub Actions'ta) çalıştırılırsa yerel klasörü kullanır
     LOG_DOSYASI = "tahmin_gecmisi.json"
     print("💻 Yerel log dosyası kullanılıyor.")
 
@@ -132,7 +131,7 @@ def tahminleri_kaydet(bugun_tahminleri):
 
 def gecmis_uclu_sonuclarini_guncelle(db):
     if not os.path.exists(LOG_DOSYASI):
-        return "📊 Henüz log kaydı bulunmuyor."
+        return "📊 Henüz log kaydı bulunmuyor (İlk Çalışma)."
     try:
         with open(LOG_DOSYASI, 'r', encoding='utf-8') as f:
             kayitlar = json.load(f)
@@ -143,10 +142,14 @@ def gecmis_uclu_sonuclarini_guncelle(db):
     for k in kayitlar:
         if k.get('sonuc_kontrol_edildi', False):
             continue
+        
+        # Bugünün tarihini içeren tahminler henüz oynanmadığı için sonuç kontrolüne SOKULMAZ
+        if k.get('tarih') == bugun:
+            continue
+
         ev, dep = k['ev'], k['dep']
         kayit_tarihi = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
         
-        # TARİH FİLTRESİ EKLENDİ: Sadece tahmini yapılan gün veya geçmişteki doğru maç tarihi baz alınır
         mac_bulundu = db[
             (db['HomeTeam'] == ev) & 
             (db['AwayTeam'] == dep) & 
@@ -177,7 +180,8 @@ def gecmis_uclu_sonuclarini_guncelle(db):
 
     kontrol_edilenler = [x for x in kayitlar if x.get('sonuc_kontrol_edildi', False)]
     if not kontrol_edilenler:
-        return "📊 Sonuçlanan maç logu yok."
+        return "📊 **GENEL BAŞARI:** Henüz sonuçlanan geçmiş maç yok (Sistem yeni aktif)."
+    
     basarili = sum(1 for x in kontrol_edilenler if x.get('tuttu', False))
     oran = round((basarili / len(kontrol_edilenler)) * 100, 1)
     return f"📈 **GENEL BAŞARI:** %{oran} ({basarili}/{len(kontrol_edilenler)} Maç)"
@@ -207,7 +211,7 @@ def aylik_lig_basari_analizi():
                 aylik_ligler[lig]['basarili'] += 1
 
     if not aylik_ligler:
-        return f"🏆 **{bugun_ay_str} AYLIK LİG ANALİZİ:** Bu aya ait maç yok."
+        return f"🏆 **{bugun_ay_str} AYLIK LİG ANALİZİ:** Bu aya ait sonuçlanan maç yok."
 
     sonuc_listesi = []
     for lig, veri in aylik_ligler.items():
@@ -416,7 +420,7 @@ analizler_listesi, kasa_havuzu, gol6_havuzu, iyms_havuzu, ust25_havuzu = [], [],
 bugun_log_listesi = []
 
 # --- GEÇMİŞ SKORLARI GÜNCELLEME ÇALIŞTIRMASI ---
-gecmis_uclu_sonuclarini_guncelle(db)
+gecmis_basari_ozeti = gecmis_uclu_sonuclarini_guncelle(db)
 
 for row in bugun_maclari:
     ev, dep = str(row['HomeTeam']).strip(), str(row['AwayTeam']).strip()
@@ -573,7 +577,6 @@ iyms_havuzu.sort(key=lambda x: x[0], reverse=True)
 ust25_havuzu.sort(key=lambda x: x[0], reverse=True)
 
 banko_kupon_metni = banko_kupon_olustur(kasa_havuzu)
-gecmis_basari_ozeti = gecmis_uclu_sonuclarini_guncelle(db)
 aylik_lig_analiz_metni = aylik_lig_basari_analizi()
 tahmin_turu_analiz_metni = tahmin_turu_basari_analizi()
 
