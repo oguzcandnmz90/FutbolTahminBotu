@@ -28,7 +28,7 @@ try:
     LOG_DOSYASI = os.path.join(DRIVE_KLASOR, "tahmin_gecmisi.json")
     print("📁 Google Drive log klasörü aktif: ", LOG_DOSYASI)
 except:
-    # Colab dışı bir ortamda (bilgisayarda) çalıştırılırsa yerel klasörü kullanır
+    # Colab dışı bir ortamda (bilgisayarda veya GitHub Actions'ta) çalıştırılırsa yerel klasörü kullanır
     LOG_DOSYASI = "tahmin_gecmisi.json"
     print("💻 Yerel log dosyası kullanılıyor.")
 
@@ -144,7 +144,15 @@ def gecmis_uclu_sonuclarini_guncelle(db):
         if k.get('sonuc_kontrol_edildi', False):
             continue
         ev, dep = k['ev'], k['dep']
-        mac_bulundu = db[((db['HomeTeam'] == ev) & (db['AwayTeam'] == dep))]
+        kayit_tarihi = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
+        
+        # TARİH FİLTRESİ EKLENDİ: Sadece tahmini yapılan gün veya geçmişteki doğru maç tarihi baz alınır
+        mac_bulundu = db[
+            (db['HomeTeam'] == ev) & 
+            (db['AwayTeam'] == dep) & 
+            (db['Date'].dt.date == kayit_tarihi.date())
+        ]
+        
         if not mac_bulundu.empty:
             son_mac = mac_bulundu.iloc[-1]
             if not pd.isna(son_mac['FTR']):
@@ -257,7 +265,6 @@ def json_loglarini_csvye_donustur():
             kayitlar = json.load(f)
         df = pd.DataFrame(kayitlar)
 
-        # CSV dosyasını da Google Drive'a kaydedelim
         hedef_klasor = DRIVE_KLASOR if 'DRIVE_KLASOR' in globals() else "."
         csv_adi = os.path.join(hedef_klasor, f"aylik_tahmin_raporu_{bugun_ay_str}.csv")
 
@@ -407,6 +414,9 @@ except:
 kod_map, ters_map = {'H':'1','D':'X','A':'2'}, {'1':'2', 'X':'X', '2':'1'}
 analizler_listesi, kasa_havuzu, gol6_havuzu, iyms_havuzu, ust25_havuzu = [], [], [], [], []
 bugun_log_listesi = []
+
+# --- GEÇMİŞ SKORLARI GÜNCELLEME ÇALIŞTIRMASI ---
+gecmis_uclu_sonuclarini_guncelle(db)
 
 for row in bugun_maclari:
     ev, dep = str(row['HomeTeam']).strip(), str(row['AwayTeam']).strip()
@@ -581,6 +591,3 @@ telegram_gonder(header)
 for i in range(0, len(analizler_listesi), 8):
     telegram_gonder("\n".join(analizler_listesi[i:i+8]))
     time.sleep(1)
-
-
-
