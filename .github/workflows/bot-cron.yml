@@ -2,17 +2,16 @@ name: Bero Futbol Analiz Botu
 
 on:
   schedule:
-    - cron: '0 13 * * 1-4' # Pazartesi - Perşembe: Türkiye saatiyle 16:00
-    - cron: '0 14 * * 5'   # Cuma: Türkiye saatiyle 17:00
-    - cron: '0 6 * * 0,6'  # Cumartesi - Pazar: Türkiye saatiyle 09:00
-  workflow_dispatch: # İstediğin zaman panelden manuel test etmen için
+    - cron: '0 13 * * 1-4'   # Hafta içi 16:00 TSI (UTC 13:00)
+    - cron: '0 14 * * 5'     # Cuma 17:00 TSI (UTC 14:00)
+    - cron: '0 6 * * 6,0'    # Hafta sonu 09:00 TSI (UTC 06:00)
+  workflow_dispatch:
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Repoyu Kopyala
         uses: actions/checkout@v4
@@ -30,8 +29,14 @@ jobs:
       - name: Botu Çalıştır
         run: python analiz.py
 
+      - name: Uzak Depo Senkronizasyonu (Pull Rebase)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "4189282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase || echo "Pull atlandı"
+
       - name: Log Dosyalarını GitHub'a Kaydet
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "otomatik: günlük tahmin logları güncellendi"
-          file_pattern: "*.json *.csv"
+          file_pattern: "tahmin_gecmisi.json aylik_tahmin_raporu_*.csv"
