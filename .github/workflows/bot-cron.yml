@@ -29,14 +29,11 @@ jobs:
       - name: Botu Çalıştır
         run: python analiz.py
 
-      - name: Uzak Depo Senkronizasyonu (Pull Rebase)
+      - name: Değişiklikleri GitHub'a Otomatik Kaydet ve Gönder
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "4189282+github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase || echo "Pull atlandı"
-
-      - name: Log Dosyalarını GitHub'a Kaydet
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "otomatik: günlük tahmin logları güncellendi"
-          file_pattern: "tahmin_gecmisi.json aylik_tahmin_raporu_*.csv"
+          git add tahmin_gecmisi.json aylik_tahmin_raporu_*.csv
+          git commit -m "otomatik: günlük tahmin logları güncellendi" || echo "Değişiklik yok"
+          git pull origin main --rebase
+          git push origin main
