@@ -1,4 +1,4 @@
-name: Bero Futbol Analiz Botu v.2
+name: Bero Futbol Analiz Botu
 
 on:
   schedule:
@@ -9,6 +9,8 @@ on:
 
 jobs:
   run-bot:
+  # CRON Çalışmama Sorununu Önlemek İçin Timeout Koruması
+    timeout-minutes: 15
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -33,7 +35,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "4189282+github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase
           git add tahmin_gecmisi.json aylik_tahmin_raporu_*.csv
           git commit -m "otomatik: günlük tahmin logları güncellendi" || echo "Değişiklik yok"
+          git pull origin main --rebase
           git push origin main
