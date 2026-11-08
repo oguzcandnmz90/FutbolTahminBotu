@@ -9,7 +9,6 @@ on:
 
 jobs:
   run-bot:
-  # CRON Çalışmama Sorununu Önlemek İçin Timeout Koruması
     timeout-minutes: 15
     runs-on: ubuntu-latest
     permissions:
