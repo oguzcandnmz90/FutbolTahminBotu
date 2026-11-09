@@ -7,9 +7,9 @@
         "dep": "Charleroi",
         "tahmin": "MS 2",
         "skor_tahmini": "2-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-5",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -19,9 +19,9 @@
         "dep": "Mechelen",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -31,9 +31,9 @@
         "dep": "Lommel SK",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -43,9 +43,9 @@
         "dep": "Cercle Brugge",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -55,9 +55,9 @@
         "dep": "Elversberg",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -67,9 +67,9 @@
         "dep": "Bayern Munich",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -79,9 +79,9 @@
         "dep": "Ein Frankfurt",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -91,9 +91,9 @@
         "dep": "Augsburg",
         "tahmin": "HMS 1",
         "skor_tahmini": "5-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "5-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -103,9 +103,9 @@
         "dep": "Werder Bremen",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -115,9 +115,9 @@
         "dep": "Bielefeld",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -127,9 +127,9 @@
         "dep": "Darmstadt",
         "tahmin": "MS 1",
         "skor_tahmini": "3-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -139,9 +139,9 @@
         "dep": "Kaiserslautern",
         "tahmin": "MS 2",
         "skor_tahmini": "2-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -151,9 +151,9 @@
         "dep": "Wolfsburg",
         "tahmin": "HMS 1",
         "skor_tahmini": "4-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -163,9 +163,9 @@
         "dep": "Tottenham",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -175,9 +175,9 @@
         "dep": "Hull",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -187,9 +187,9 @@
         "dep": "Newcastle",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -199,9 +199,9 @@
         "dep": "Man City",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -211,9 +211,9 @@
         "dep": "Norwich",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-5",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -223,9 +223,9 @@
         "dep": "Stoke",
         "tahmin": "KG VAR",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -235,9 +235,9 @@
         "dep": "Wolves",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -247,9 +247,9 @@
         "dep": "Swansea",
         "tahmin": "MS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -259,9 +259,9 @@
         "dep": "West Ham",
         "tahmin": "MS 2",
         "skor_tahmini": "2-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -271,9 +271,9 @@
         "dep": "Burnley",
         "tahmin": "MS 1",
         "skor_tahmini": "3-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "5-4",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -283,9 +283,9 @@
         "dep": "Sheffield United",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -295,9 +295,9 @@
         "dep": "Southampton",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -307,9 +307,9 @@
         "dep": "Lincoln",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -319,9 +319,9 @@
         "dep": "Middlesbrough",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -331,9 +331,9 @@
         "dep": "Millwall",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -343,9 +343,9 @@
         "dep": "Paris FC",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -355,9 +355,9 @@
         "dep": "Troyes",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -367,9 +367,9 @@
         "dep": "Frosinone",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -379,9 +379,9 @@
         "dep": "Lecce",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -391,9 +391,9 @@
         "dep": "Bologna",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -403,9 +403,9 @@
         "dep": "Sassuolo",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -415,9 +415,9 @@
         "dep": "Telstar",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -427,9 +427,9 @@
         "dep": "Sparta Rotterdam",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -439,9 +439,9 @@
         "dep": "Go Ahead Eagles",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -451,9 +451,9 @@
         "dep": "Academico Viseu",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -463,9 +463,9 @@
         "dep": "Casa Pia",
         "tahmin": "MS 2",
         "skor_tahmini": "0-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -475,9 +475,9 @@
         "dep": "Moreirense",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -487,9 +487,9 @@
         "dep": "Motherwell",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -499,9 +499,9 @@
         "dep": "Dundee",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -511,9 +511,9 @@
         "dep": "Hibernian",
         "tahmin": "MS 1",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-4",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -523,9 +523,9 @@
         "dep": "Rangers",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -535,9 +535,9 @@
         "dep": "Santander",
         "tahmin": "MS 0",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -547,9 +547,9 @@
         "dep": "La Coruna",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -559,9 +559,9 @@
         "dep": "Ath Bilbao",
         "tahmin": "MS 1",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -571,9 +571,9 @@
         "dep": "Real Madrid",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-3",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -583,9 +583,9 @@
         "dep": "Celta B",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -595,9 +595,9 @@
         "dep": "Oviedo",
         "tahmin": "MS 0",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -607,9 +607,9 @@
         "dep": "Ceuta",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -619,9 +619,9 @@
         "dep": "Albacete",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-3",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -631,9 +631,9 @@
         "dep": "Kocaelispor",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -643,9 +643,9 @@
         "dep": "Konyaspor",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -655,9 +655,9 @@
         "dep": "Amedspor",
         "tahmin": "MS 1",
         "skor_tahmini": "3-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "4-3",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -667,9 +667,9 @@
         "dep": "Buyuksehyr",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -679,9 +679,9 @@
         "dep": "Charleroi",
         "tahmin": "MS 2",
         "skor_tahmini": "2-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-5",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -691,9 +691,9 @@
         "dep": "Mechelen",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -703,9 +703,9 @@
         "dep": "Lommel SK",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -715,9 +715,9 @@
         "dep": "Cercle Brugge",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -727,9 +727,9 @@
         "dep": "Elversberg",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -739,9 +739,9 @@
         "dep": "Bayern Munich",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -751,9 +751,9 @@
         "dep": "Ein Frankfurt",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -763,9 +763,9 @@
         "dep": "Augsburg",
         "tahmin": "HMS 1",
         "skor_tahmini": "5-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "5-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -775,9 +775,9 @@
         "dep": "Werder Bremen",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -787,9 +787,9 @@
         "dep": "Bielefeld",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -799,9 +799,9 @@
         "dep": "Darmstadt",
         "tahmin": "MS 1",
         "skor_tahmini": "3-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -811,9 +811,9 @@
         "dep": "Kaiserslautern",
         "tahmin": "MS 2",
         "skor_tahmini": "2-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -823,9 +823,9 @@
         "dep": "Wolfsburg",
         "tahmin": "HMS 1",
         "skor_tahmini": "4-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -835,9 +835,9 @@
         "dep": "Tottenham",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -847,9 +847,9 @@
         "dep": "Hull",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -859,9 +859,9 @@
         "dep": "Newcastle",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -871,9 +871,9 @@
         "dep": "Man City",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -883,9 +883,9 @@
         "dep": "Norwich",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-5",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -895,9 +895,9 @@
         "dep": "Stoke",
         "tahmin": "KG VAR",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -907,9 +907,9 @@
         "dep": "Wolves",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -919,9 +919,9 @@
         "dep": "Swansea",
         "tahmin": "MS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -931,9 +931,9 @@
         "dep": "West Ham",
         "tahmin": "MS 2",
         "skor_tahmini": "2-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -943,9 +943,9 @@
         "dep": "Burnley",
         "tahmin": "MS 1",
         "skor_tahmini": "3-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "5-4",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -955,9 +955,9 @@
         "dep": "Sheffield United",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -967,9 +967,9 @@
         "dep": "Southampton",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -979,9 +979,9 @@
         "dep": "Lincoln",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -991,9 +991,9 @@
         "dep": "Middlesbrough",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1003,9 +1003,9 @@
         "dep": "Millwall",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1015,9 +1015,9 @@
         "dep": "Paris FC",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1027,9 +1027,9 @@
         "dep": "Troyes",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1039,9 +1039,9 @@
         "dep": "Frosinone",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1051,9 +1051,9 @@
         "dep": "Lecce",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1063,9 +1063,9 @@
         "dep": "Bologna",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1075,9 +1075,9 @@
         "dep": "Sassuolo",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1087,9 +1087,9 @@
         "dep": "Telstar",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1099,9 +1099,9 @@
         "dep": "Sparta Rotterdam",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1111,9 +1111,9 @@
         "dep": "Go Ahead Eagles",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1123,9 +1123,9 @@
         "dep": "Academico Viseu",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1135,9 +1135,9 @@
         "dep": "Casa Pia",
         "tahmin": "MS 2",
         "skor_tahmini": "0-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1147,9 +1147,9 @@
         "dep": "Moreirense",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1159,9 +1159,9 @@
         "dep": "Motherwell",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1171,9 +1171,9 @@
         "dep": "Dundee",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1183,9 +1183,9 @@
         "dep": "Hibernian",
         "tahmin": "MS 1",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-4",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1195,9 +1195,9 @@
         "dep": "Rangers",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1207,9 +1207,9 @@
         "dep": "Santander",
         "tahmin": "MS 0",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1219,9 +1219,9 @@
         "dep": "La Coruna",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1231,9 +1231,9 @@
         "dep": "Ath Bilbao",
         "tahmin": "MS 1",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1243,9 +1243,9 @@
         "dep": "Real Madrid",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-3",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1255,9 +1255,9 @@
         "dep": "Celta B",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1267,9 +1267,9 @@
         "dep": "Oviedo",
         "tahmin": "MS 0",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1279,9 +1279,9 @@
         "dep": "Ceuta",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1291,9 +1291,9 @@
         "dep": "Albacete",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-3",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1303,9 +1303,9 @@
         "dep": "Kocaelispor",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1315,9 +1315,9 @@
         "dep": "Konyaspor",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -1327,9 +1327,9 @@
         "dep": "Amedspor",
         "tahmin": "MS 1",
         "skor_tahmini": "3-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "4-3",
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1339,9 +1339,9 @@
         "dep": "Buyuksehyr",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1351,9 +1351,9 @@
         "dep": "Anderlecht",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1363,9 +1363,9 @@
         "dep": "Kortrijk",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1375,9 +1375,9 @@
         "dep": "Genk",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1387,9 +1387,9 @@
         "dep": "Waregem",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "4-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1399,9 +1399,9 @@
         "dep": "Leverkusen",
         "tahmin": "MS 0",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1411,9 +1411,9 @@
         "dep": "Union Berlin",
         "tahmin": "MS 1",
         "skor_tahmini": "3-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1423,9 +1423,9 @@
         "dep": "Schalke 04",
         "tahmin": "MS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1435,9 +1435,9 @@
         "dep": "Karlsruhe",
         "tahmin": "MS 1",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1447,9 +1447,9 @@
         "dep": "Hannover",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1459,9 +1459,9 @@
         "dep": "St Pauli",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "4-1",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1471,9 +1471,9 @@
         "dep": "Brentford",
         "tahmin": "HMS 1",
         "skor_tahmini": "4-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1483,9 +1483,9 @@
         "dep": "Liverpool",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-3",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1495,9 +1495,9 @@
         "dep": "Bournemouth",
         "tahmin": "2.5 ÜST",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1507,9 +1507,9 @@
         "dep": "Chelsea",
         "tahmin": "MS 2",
         "skor_tahmini": "0-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1519,9 +1519,9 @@
         "dep": "Aston Villa",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "4-4",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1531,9 +1531,9 @@
         "dep": "Lille",
         "tahmin": "MS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1543,9 +1543,9 @@
         "dep": "Nice",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1555,9 +1555,9 @@
         "dep": "Lyon",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1567,9 +1567,9 @@
         "dep": "Lorient",
         "tahmin": "MS 2",
         "skor_tahmini": "0-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1579,9 +1579,9 @@
         "dep": "Monaco",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1591,9 +1591,9 @@
         "dep": "Marseille",
         "tahmin": "2.5 ÜST",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1603,9 +1603,9 @@
         "dep": "Lazio",
         "tahmin": "HMS 2",
         "skor_tahmini": "2-4",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1615,9 +1615,9 @@
         "dep": "Milan",
         "tahmin": "MS 0",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1627,9 +1627,9 @@
         "dep": "Atalanta",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1639,9 +1639,9 @@
         "dep": "Como",
         "tahmin": "MS 0",
         "skor_tahmini": "3-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1651,9 +1651,9 @@
         "dep": "Juventus",
         "tahmin": "MS 2",
         "skor_tahmini": "0-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1663,9 +1663,9 @@
         "dep": "Feyenoord",
         "tahmin": "2.5 ÜST",
         "skor_tahmini": "0-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "5-3",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1675,9 +1675,9 @@
         "dep": "Ajax",
         "tahmin": "MS 2",
         "skor_tahmini": "2-4",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1687,9 +1687,9 @@
         "dep": "Groningen",
         "tahmin": "MS 0",
         "skor_tahmini": "0-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "4-3",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1699,9 +1699,9 @@
         "dep": "PSV Eindhoven",
         "tahmin": "MS 1",
         "skor_tahmini": "4-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-5",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1711,9 +1711,9 @@
         "dep": "Nijmegen",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-3",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1735,9 +1735,9 @@
         "dep": "Gil Vicente",
         "tahmin": "MS 2",
         "skor_tahmini": "0-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1747,9 +1747,9 @@
         "dep": "Porto",
         "tahmin": "HMS 2",
         "skor_tahmini": "0-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1759,9 +1759,9 @@
         "dep": "Benfica",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-3",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1771,9 +1771,9 @@
         "dep": "Sp Braga",
         "tahmin": "MS 0",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1783,9 +1783,9 @@
         "dep": "Falkirk",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-5",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1795,9 +1795,9 @@
         "dep": "Kilmarnock",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1807,9 +1807,9 @@
         "dep": "Betis",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1819,9 +1819,9 @@
         "dep": "Vallecano",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1831,9 +1831,9 @@
         "dep": "Levante",
         "tahmin": "MS 1",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-0",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1843,9 +1843,9 @@
         "dep": "Getafe",
         "tahmin": "MS 1",
         "skor_tahmini": "1-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1855,9 +1855,9 @@
         "dep": "Barcelona",
         "tahmin": "2.5 ÜST",
         "skor_tahmini": "2-4",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1867,9 +1867,9 @@
         "dep": "Almeria",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1891,9 +1891,9 @@
         "dep": "Valladolid",
         "tahmin": "HMS 1",
         "skor_tahmini": "2-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-2",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1903,9 +1903,9 @@
         "dep": "Erzurumspor",
         "tahmin": "MS 2",
         "skor_tahmini": "1-2",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-1",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
@@ -1915,9 +1915,9 @@
         "dep": "Fenerbahce",
         "tahmin": "2.5 ÜST",
         "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-5",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1927,9 +1927,9 @@
         "dep": "Trabzonspor",
         "tahmin": "HMS 2",
         "skor_tahmini": "1-3",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "0-2",
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1939,8 +1939,8 @@
         "dep": "Genclerbirligi",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-0",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "3-0",
+        "tuttu": true
     }
 ]
