@@ -1879,9 +1879,9 @@
         "dep": "Eldense",
         "tahmin": "MS 0",
         "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "2-0",
+        "tuttu": false
     },
     {
         "tarih": "08/11/2026",
