@@ -1942,5 +1942,17 @@
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "3-0",
         "tuttu": true
+    },
+    {
+        "tarih": "13/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Leganes",
+        "dep": "Burgos",
+        "tahmin": "HMS 2",
+        "skor_tahmini": "1-3",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
     }
 ]
