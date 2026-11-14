@@ -117,7 +117,6 @@ def tahminleri_kaydet(bugun_tahminleri):
         except:
             veri = []
     
-    # Aynı gün ve aynı maçlar tekrar eklenmesin diye mükerrer kontrolü
     mevcut_anahtarlar = {f"{x['tarih']}_{x['ev']}_{x['dep']}" for x in veri}
     yeni_eklenenler = 0
     for item in bugun_tahminleri:
@@ -144,7 +143,6 @@ def gecmis_uclu_sonuclarini_guncelle(db):
         if k.get('sonuc_kontrol_edildi', False):
             continue
         
-        # Bugünün tarihini içeren tahminler henüz oynanmadığı için sonuç kontrolüne SOKULMAZ
         if k.get('tarih') == bugun:
             continue
 
@@ -154,7 +152,6 @@ def gecmis_uclu_sonuclarini_guncelle(db):
         if pd.isna(kayit_tarihi):
             continue
 
-        # Tarih aralığında (±1 gün tolerans ile) maç arayarak sonuçların yakalanmasını garantiliyoruz
         mac_bulundu = db[
             (db['HomeTeam'] == ev) & 
             (db['AwayTeam'] == dep) & 
@@ -169,12 +166,16 @@ def gecmis_uclu_sonuclarini_guncelle(db):
                 k['gercek_skor'] = f"{fthg}-{ftag}"
                 tahmin = k['tahmin']
                 tuttu = False
+                
                 if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
                 elif "2.5 ALT" in tahmin and (fthg + ftag) < 3: tuttu = True
                 elif "KG VAR" in tahmin and fthg > 0 and ftag > 0: tuttu = True
                 elif "MS 1" in tahmin and son_mac['FTR'] == 'H': tuttu = True
                 elif "MS 2" in tahmin and son_mac['FTR'] == 'A': tuttu = True
                 elif "MS 0" in tahmin and son_mac['FTR'] == 'D': tuttu = True
+                # Çifte şans destekleri eklendi:
+                elif ("ÇŞ 1X" in tahmin or "10ç" in tahmin) and fthg >= ftag: tuttu = True
+                elif ("ÇŞ X2" in tahmin or "02ç" in tahmin) and ftag >= fthg: tuttu = True
 
                 k['tuttu'] = tuttu
                 k['sonuc_kontrol_edildi'] = True
