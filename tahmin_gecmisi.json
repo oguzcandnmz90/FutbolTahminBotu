@@ -2,7 +2,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "Westerlo",
         "dep": "Charleroi",
         "tahmin": "MS 2",
@@ -14,7 +14,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "Oud-Heverlee Leuven",
         "dep": "Mechelen",
         "tahmin": "ÇŞ X2",
@@ -33,7 +33,7 @@
         "skor_tahmini": "2-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "2-2",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -62,7 +62,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Mainz",
         "dep": "Bayern Munich",
         "tahmin": "HMS 2",
@@ -86,7 +86,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "RB Leipzig",
         "dep": "Augsburg",
         "tahmin": "HMS 1",
@@ -98,7 +98,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Stuttgart",
         "dep": "Werder Bremen",
         "tahmin": "HMS 2",
@@ -110,19 +110,19 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Holstein Kiel",
         "dep": "Bielefeld",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-2",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Nurnberg",
         "dep": "Darmstadt",
         "tahmin": "MS 1",
@@ -146,7 +146,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Hertha",
         "dep": "Wolfsburg",
         "tahmin": "HMS 1",
@@ -170,7 +170,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E0",
         "ev": "Arsenal",
         "dep": "Hull",
         "tahmin": "HMS 1",
@@ -182,14 +182,14 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Fulham",
         "dep": "Newcastle",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -206,7 +206,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Bristol City",
         "dep": "Norwich",
         "tahmin": "HMS 2",
@@ -266,7 +266,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Cardiff",
         "dep": "Burnley",
         "tahmin": "MS 1",
@@ -314,14 +314,14 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E0",
         "ev": "Watford",
         "dep": "Middlesbrough",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-0",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -350,7 +350,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "F1",
         "ev": "Paris SG",
         "dep": "Troyes",
         "tahmin": "HMS 1",
@@ -381,7 +381,7 @@
         "skor_tahmini": "1-0",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -398,7 +398,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "I1",
         "ev": "Roma",
         "dep": "Sassuolo",
         "tahmin": "HMS 1",
@@ -422,7 +422,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Den Haag",
         "dep": "Sparta Rotterdam",
         "tahmin": "MS 2",
@@ -434,14 +434,14 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Excelsior",
         "dep": "Go Ahead Eagles",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -470,7 +470,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "P1",
         "ev": "Sp Lisbon",
         "dep": "Moreirense",
         "tahmin": "ÇŞ X2",
@@ -482,7 +482,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "Dundee United",
         "dep": "Motherwell",
         "tahmin": "HMS 1",
@@ -494,7 +494,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "St Johnstone",
         "dep": "Dundee",
         "tahmin": "ÇŞ X2",
@@ -506,7 +506,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "Aberdeen",
         "dep": "Hibernian",
         "tahmin": "MS 1",
@@ -542,19 +542,19 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Espanol",
         "dep": "La Coruna",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-0",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Osasuna",
         "dep": "Ath Bilbao",
         "tahmin": "MS 1",
@@ -566,7 +566,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Valencia",
         "dep": "Real Madrid",
         "tahmin": "HMS 2",
@@ -590,7 +590,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Cadiz",
         "dep": "Oviedo",
         "tahmin": "MS 0",
@@ -614,7 +614,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Leganes",
         "dep": "Albacete",
         "tahmin": "ÇŞ 1X",
@@ -662,7 +662,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "T1",
         "ev": "Goztep",
         "dep": "Buyuksehyr",
         "tahmin": "MS 1",
@@ -674,7 +674,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "Westerlo",
         "dep": "Charleroi",
         "tahmin": "MS 2",
@@ -686,7 +686,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "Oud-Heverlee Leuven",
         "dep": "Mechelen",
         "tahmin": "ÇŞ X2",
@@ -705,7 +705,7 @@
         "skor_tahmini": "2-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "2-2",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -734,7 +734,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Mainz",
         "dep": "Bayern Munich",
         "tahmin": "HMS 2",
@@ -758,7 +758,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "RB Leipzig",
         "dep": "Augsburg",
         "tahmin": "HMS 1",
@@ -770,7 +770,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Stuttgart",
         "dep": "Werder Bremen",
         "tahmin": "HMS 2",
@@ -782,19 +782,19 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Holstein Kiel",
         "dep": "Bielefeld",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-2",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Nurnberg",
         "dep": "Darmstadt",
         "tahmin": "MS 1",
@@ -818,7 +818,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Hertha",
         "dep": "Wolfsburg",
         "tahmin": "HMS 1",
@@ -842,7 +842,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E0",
         "ev": "Arsenal",
         "dep": "Hull",
         "tahmin": "HMS 1",
@@ -854,14 +854,14 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Fulham",
         "dep": "Newcastle",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -878,7 +878,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Bristol City",
         "dep": "Norwich",
         "tahmin": "HMS 2",
@@ -938,7 +938,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Cardiff",
         "dep": "Burnley",
         "tahmin": "MS 1",
@@ -986,14 +986,14 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E0",
         "ev": "Watford",
         "dep": "Middlesbrough",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-0",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1022,7 +1022,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "F1",
         "ev": "Paris SG",
         "dep": "Troyes",
         "tahmin": "HMS 1",
@@ -1053,7 +1053,7 @@
         "skor_tahmini": "1-0",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1070,7 +1070,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "I1",
         "ev": "Roma",
         "dep": "Sassuolo",
         "tahmin": "HMS 1",
@@ -1094,7 +1094,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Den Haag",
         "dep": "Sparta Rotterdam",
         "tahmin": "MS 2",
@@ -1106,14 +1106,14 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Excelsior",
         "dep": "Go Ahead Eagles",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
@@ -1142,7 +1142,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "P1",
         "ev": "Sp Lisbon",
         "dep": "Moreirense",
         "tahmin": "ÇŞ X2",
@@ -1154,7 +1154,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "Dundee United",
         "dep": "Motherwell",
         "tahmin": "HMS 1",
@@ -1166,7 +1166,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "St Johnstone",
         "dep": "Dundee",
         "tahmin": "ÇŞ X2",
@@ -1178,7 +1178,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "Aberdeen",
         "dep": "Hibernian",
         "tahmin": "MS 1",
@@ -1214,19 +1214,19 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Espanol",
         "dep": "La Coruna",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-0",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Osasuna",
         "dep": "Ath Bilbao",
         "tahmin": "MS 1",
@@ -1238,7 +1238,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Valencia",
         "dep": "Real Madrid",
         "tahmin": "HMS 2",
@@ -1262,7 +1262,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Cadiz",
         "dep": "Oviedo",
         "tahmin": "MS 0",
@@ -1286,7 +1286,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Leganes",
         "dep": "Albacete",
         "tahmin": "ÇŞ 1X",
@@ -1334,7 +1334,7 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "T1",
         "ev": "Goztep",
         "dep": "Buyuksehyr",
         "tahmin": "MS 1",
@@ -1346,7 +1346,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "Club Brugge",
         "dep": "Anderlecht",
         "tahmin": "MS 1",
@@ -1358,7 +1358,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "Gent",
         "dep": "Kortrijk",
         "tahmin": "HMS 1",
@@ -1382,7 +1382,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "B1",
         "ev": "St Truiden",
         "dep": "Waregem",
         "tahmin": "ÇŞ X2",
@@ -1394,7 +1394,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "FC Koln",
         "dep": "Leverkusen",
         "tahmin": "MS 0",
@@ -1406,7 +1406,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Freiburg",
         "dep": "Union Berlin",
         "tahmin": "MS 1",
@@ -1418,7 +1418,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D1",
         "ev": "Hoffenheim",
         "dep": "Schalke 04",
         "tahmin": "MS 1",
@@ -1430,7 +1430,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Bochum",
         "dep": "Karlsruhe",
         "tahmin": "MS 1",
@@ -1442,7 +1442,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "D2",
         "ev": "Heidenheim",
         "dep": "Hannover",
         "tahmin": "MS 1",
@@ -1466,7 +1466,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E1",
         "ev": "Brighton",
         "dep": "Brentford",
         "tahmin": "HMS 1",
@@ -1478,7 +1478,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E0",
         "ev": "Crystal Palace",
         "dep": "Liverpool",
         "tahmin": "HMS 2",
@@ -1502,7 +1502,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "E0",
         "ev": "Sunderland",
         "dep": "Chelsea",
         "tahmin": "MS 2",
@@ -1526,7 +1526,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "F1",
         "ev": "Rennes",
         "dep": "Lille",
         "tahmin": "MS 1",
@@ -1538,14 +1538,14 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "F1",
         "ev": "Angers",
         "dep": "Nice",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "1-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-2",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1557,7 +1557,7 @@
         "skor_tahmini": "2-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "2-0",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1581,7 +1581,7 @@
         "skor_tahmini": "2-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1598,7 +1598,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "I1",
         "ev": "Napoli",
         "dep": "Lazio",
         "tahmin": "HMS 2",
@@ -1610,7 +1610,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "I1",
         "ev": "Genoa",
         "dep": "Milan",
         "tahmin": "MS 0",
@@ -1646,7 +1646,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "I1",
         "ev": "Fiorentina",
         "dep": "Juventus",
         "tahmin": "MS 2",
@@ -1658,7 +1658,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Heerenveen",
         "dep": "Feyenoord",
         "tahmin": "2.5 ÜST",
@@ -1670,7 +1670,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Twente",
         "dep": "Ajax",
         "tahmin": "MS 2",
@@ -1682,7 +1682,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "AZ Alkmaar",
         "dep": "Groningen",
         "tahmin": "MS 0",
@@ -1694,7 +1694,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Cambuur",
         "dep": "PSV Eindhoven",
         "tahmin": "MS 1",
@@ -1706,7 +1706,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "N1",
         "ev": "Utrecht",
         "dep": "Nijmegen",
         "tahmin": "MS 1",
@@ -1718,7 +1718,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "P1",
         "ev": "Estoril",
         "dep": "Maritimo",
         "tahmin": "MS 2",
@@ -1742,7 +1742,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "P1",
         "ev": "Guimaraes",
         "dep": "Porto",
         "tahmin": "HMS 2",
@@ -1766,7 +1766,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "P1",
         "ev": "Rio Ave",
         "dep": "Sp Braga",
         "tahmin": "MS 0",
@@ -1790,7 +1790,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SC0",
         "ev": "Celtic",
         "dep": "Kilmarnock",
         "tahmin": "HMS 1",
@@ -1814,7 +1814,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Sociedad",
         "dep": "Vallecano",
         "tahmin": "HMS 1",
@@ -1826,7 +1826,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Celta",
         "dep": "Levante",
         "tahmin": "MS 1",
@@ -1838,7 +1838,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Villarreal",
         "dep": "Getafe",
         "tahmin": "MS 1",
@@ -1850,7 +1850,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP1",
         "ev": "Ath Madrid",
         "dep": "Barcelona",
         "tahmin": "2.5 ÜST",
@@ -1862,14 +1862,14 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Girona",
         "dep": "Almeria",
         "tahmin": "ÇŞ X2",
         "skor_tahmini": "2-2",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-1",
-        "tuttu": false
+        "tuttu": true
     },
     {
         "tarih": "08/11/2026",
@@ -1886,7 +1886,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Sp Gijon",
         "dep": "Valladolid",
         "tahmin": "HMS 1",
@@ -1922,7 +1922,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "T1",
         "ev": "Alanyaspor",
         "dep": "Trabzonspor",
         "tahmin": "HMS 2",
@@ -1934,7 +1934,7 @@
     {
         "tarih": "08/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "T1",
         "ev": "Besiktas",
         "dep": "Genclerbirligi",
         "tahmin": "HMS 1",
@@ -1994,7 +1994,7 @@
     {
         "tarih": "14/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Mallorca",
         "dep": "Cordoba",
         "tahmin": "MS 1",
@@ -2006,7 +2006,7 @@
     {
         "tarih": "14/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "SP2",
         "ev": "Oviedo",
         "dep": "Girona",
         "tahmin": "MS 1",
