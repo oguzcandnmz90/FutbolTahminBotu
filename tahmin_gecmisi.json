@@ -1954,5 +1954,65 @@
         "sonuc_kontrol_edildi": false,
         "gercek_skor": null,
         "tuttu": null
+    },
+    {
+        "tarih": "14/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Valladolid",
+        "dep": "Castellon",
+        "tahmin": "ÇŞ X2",
+        "skor_tahmini": "3-3",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "14/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Sociedad B",
+        "dep": "Sp Gijon",
+        "tahmin": "MS 2",
+        "skor_tahmini": "0-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "14/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Almeria",
+        "dep": "Andorra",
+        "tahmin": "HMS 1",
+        "skor_tahmini": "3-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "14/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Mallorca",
+        "dep": "Cordoba",
+        "tahmin": "MS 1",
+        "skor_tahmini": "2-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "14/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Oviedo",
+        "dep": "Girona",
+        "tahmin": "MS 1",
+        "skor_tahmini": "1-0",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
     }
 ]
