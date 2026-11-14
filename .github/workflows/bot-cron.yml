@@ -5,6 +5,8 @@ on:
     - cron: '0 13 * * 1-4'   # Hafta içi 16:00 TSI (UTC 13:00)
     - cron: '0 14 * * 5'     # Cuma 17:00 TSI (UTC 14:00)
     - cron: '0 6 * * 6,0'    # Hafta sonu 09:00 TSI (UTC 06:00)
+  repository_dispatch:
+    types: [run-bot]
   workflow_dispatch:
 
 jobs:
