@@ -140,15 +140,20 @@ def gecmis_uclu_sonuclarini_guncelle(db):
 
     guncellendi = False
     for k in kayitlar:
-        if k.get('sonuc_kontrol_edildi', False):
-            continue
+        ev, dep = k['ev'], k['dep']
         
+        # Lig bilgisi NaN veya eksikse tablodan otomatik tamamla
+        if not k.get('lig') or str(k.get('lig')) == 'nan':
+            bulunan_mac = db[(db['HomeTeam'] == ev) & (db['AwayTeam'] == dep)]
+            if not bulunan_mac.empty:
+                k['lig'] = bulunan_mac.iloc[-1].get('Div', 'B1')
+                guncellendi = True
+
+        # Bugünün tarihini içeren tahminler henüz oynanmadığı için sonuç kontrolüne SOKULMAZ
         if k.get('tarih') == bugun:
             continue
 
-        ev, dep = k['ev'], k['dep']
         kayit_tarihi = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
-        
         if pd.isna(kayit_tarihi):
             continue
 
@@ -165,21 +170,24 @@ def gecmis_uclu_sonuclarini_guncelle(db):
                 fthg, ftag = int(son_mac['FTHG']), int(son_mac['FTAG'])
                 k['gercek_skor'] = f"{fthg}-{ftag}"
                 tahmin = k['tahmin']
-                tuttu = False
                 
-                if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
-                elif "2.5 ALT" in tahmin and (fthg + ftag) < 3: tuttu = True
-                elif "KG VAR" in tahmin and fthg > 0 and ftag > 0: tuttu = True
-                elif "MS 1" in tahmin and son_mac['FTR'] == 'H': tuttu = True
-                elif "MS 2" in tahmin and son_mac['FTR'] == 'A': tuttu = True
-                elif "MS 0" in tahmin and son_mac['FTR'] == 'D': tuttu = True
-                # Çifte şans destekleri eklendi:
-                elif ("ÇŞ 1X" in tahmin or "10ç" in tahmin) and fthg >= ftag: tuttu = True
-                elif ("ÇŞ X2" in tahmin or "02ç" in tahmin) and ftag >= fthg: tuttu = True
+                # Eğer daha önce kontrol edilmemişse VEYA tahmin Çifte Şans (ÇŞ) içeriyorsa
+                # geçmişteki olası hatalı sonuçları düzeltmek için yeniden denetle
+                if not k.get('sonuc_kontrol_edildi', False) or ("ÇŞ" in tahmin or "ç" in tahmin):
+                    tuttu = False
+                    if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
+                    elif "2.5 ALT" in tahmin and (fthg + ftag) < 3: tuttu = True
+                    elif "KG VAR" in tahmin and fthg > 0 and ftag > 0: tuttu = True
+                    elif "MS 1" in tahmin and son_mac['FTR'] == 'H': tuttu = True
+                    elif "MS 2" in tahmin and son_mac['FTR'] == 'A': tuttu = True
+                    elif "MS 0" in tahmin and son_mac['FTR'] == 'D': tuttu = True
+                    elif ("ÇŞ 1X" in tahmin or "10ç" in tahmin) and fthg >= ftag: tuttu = True
+                    elif ("ÇŞ X2" in tahmin or "02ç" in tahmin) and ftag >= fthg: tuttu = True
 
-                k['tuttu'] = tuttu
-                k['sonuc_kontrol_edildi'] = True
-                guncellendi = True
+                    if k.get('tuttu') != tuttu or not k.get('sonuc_kontrol_edildi', False):
+                        k['tuttu'] = tuttu
+                        k['sonuc_kontrol_edildi'] = True
+                        guncellendi = True
 
     if guncellendi:
         with open(LOG_DOSYASI, 'w', encoding='utf-8') as f:
@@ -202,14 +210,24 @@ def aylik_lig_basari_analizi():
     except:
         return "Log dosyası okunamadı."
 
-    kontrol_edilenler = [x for x in kayitlar if x.get('sonuc_kontrol_edildi', False) and 'lig' in x and 'ay' in x]
+    kontrol_edilenler = [x for x in kayitlar if x.get('sonuc_kontrol_edildi', False)]
     if not kontrol_edilenler:
         return "🏆 **AYLIK LİG ANALİZİ:** Henüz sonuçlanan maç bulunmuyor."
 
     aylik_ligler = {}
     for k in kontrol_edilenler:
-        if k['ay'] == bugun_ay_str:
-            lig = k['lig']
+        lig = k.get('lig')
+        if not lig or str(lig) == 'nan':
+            lig = 'B1'
+
+        kayit_ayi = k.get('ay')
+        if not kayit_ayi and 'tarih' in k:
+            try:
+                kayit_ayi = pd.to_datetime(k['tarih'], format='%d/%m/%Y').strftime('%Y-%m')
+            except:
+                kayit_ayi = bugun_ay_str
+
+        if kayit_ayi == bugun_ay_str:
             tuttu = k.get('tuttu', False)
             if lig not in aylik_ligler:
                 aylik_ligler[lig] = {'toplam': 0, 'basarili': 0}
