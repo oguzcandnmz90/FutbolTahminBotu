@@ -2014,5 +2014,53 @@
         "sonuc_kontrol_edildi": false,
         "gercek_skor": null,
         "tuttu": null
+    },
+    {
+        "tarih": "15/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Tenerife",
+        "dep": "Ceuta",
+        "tahmin": "MS 1",
+        "skor_tahmini": "2-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "15/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Granada",
+        "dep": "Las Palmas",
+        "tahmin": "MS 1",
+        "skor_tahmini": "3-2",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "15/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Eibar",
+        "dep": "Cadiz",
+        "tahmin": "MS 1",
+        "skor_tahmini": "2-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
+    },
+    {
+        "tarih": "15/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Eldense",
+        "dep": "Sabadell",
+        "tahmin": "ÇŞ 1X",
+        "skor_tahmini": "1-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null
     }
 ]
