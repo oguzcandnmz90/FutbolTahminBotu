@@ -142,13 +142,6 @@ def gecmis_uclu_sonuclarini_guncelle(db):
     for k in kayitlar:
         ev, dep = k['ev'], k['dep']
         
-        # Lig bilgisi NaN veya eksikse tablodan otomatik tamamla
-        if not k.get('lig') or str(k.get('lig')) == 'nan':
-            bulunan_mac = db[(db['HomeTeam'] == ev) & (db['AwayTeam'] == dep)]
-            if not bulunan_mac.empty:
-                k['lig'] = bulunan_mac.iloc[-1].get('Div', 'B1')
-                guncellendi = True
-
         # Bugünün tarihini içeren tahminler henüz oynanmadığı için sonuç kontrolüne SOKULMAZ
         if k.get('tarih') == bugun:
             continue
@@ -157,6 +150,7 @@ def gecmis_uclu_sonuclarini_guncelle(db):
         if pd.isna(kayit_tarihi):
             continue
 
+        # Maçı YALNIZCA o tarihe (±1 gün toleransla) ait veritabanı kaydından arıyoruz
         mac_bulundu = db[
             (db['HomeTeam'] == ev) & 
             (db['AwayTeam'] == dep) & 
@@ -169,10 +163,17 @@ def gecmis_uclu_sonuclarini_guncelle(db):
             if not pd.isna(son_mac['FTR']):
                 fthg, ftag = int(son_mac['FTHG']), int(son_mac['FTAG'])
                 k['gercek_skor'] = f"{fthg}-{ftag}"
+                
+                # Lig bilgisini doğrudan o tarihteki resmi maç kaydından alıyoruz (Hata önleyici)
+                gercek_lig = son_mac.get('Div')
+                if gercek_lig and str(gercek_lig) != 'nan':
+                    if k.get('lig') != gercek_lig:
+                        k['lig'] = gercek_lig
+                        guncellendi = True
+
                 tahmin = k['tahmin']
                 
-                # Eğer daha önce kontrol edilmemişse VEYA tahmin Çifte Şans (ÇŞ) içeriyorsa
-                # geçmişteki olası hatalı sonuçları düzeltmek için yeniden denetle
+                # Çifte şans ve diğer kurallarla kontrol
                 if not k.get('sonuc_kontrol_edildi', False) or ("ÇŞ" in tahmin or "ç" in tahmin):
                     tuttu = False
                     if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
@@ -217,8 +218,9 @@ def aylik_lig_basari_analizi():
     aylik_ligler = {}
     for k in kontrol_edilenler:
         lig = k.get('lig')
+        # Eğer lig hâlâ yoksa veya NaN ise analize dahil edip kirletmesin diye atlıyoruz
         if not lig or str(lig) == 'nan':
-            lig = 'B1'
+            continue
 
         kayit_ayi = k.get('ay')
         if not kayit_ayi and 'tarih' in k:
