@@ -141,32 +141,26 @@ def gecmis_uclu_sonuclarini_guncelle(db):
     guncellendi = False
     for k in kayitlar:
         ev, dep = k['ev'], k['dep']
+        kayit_tarihi = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
         
-        # 📌 NaN veya eksik lig alanlarını veritabanından akıllıca tamamlama
-        lig_degeri = str(k.get('lig'))
-        if not k.get('lig') or lig_degeri in ['nan', 'NaN', 'None', '']:
-            kayit_tarihi_temp = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
-            if not pd.isna(kayit_tarihi_temp):
-                bulunan_lig_db = db[
-                    (db['HomeTeam'] == ev) & 
-                    (db['AwayTeam'] == dep) & 
-                    (db['Date'].dt.date >= (kayit_tarihi_temp.date() - timedelta(days=2))) &
-                    (db['Date'].dt.date <= (kayit_tarihi_temp.date() + timedelta(days=2)))
-                ]
-                if not bulunan_lig_db.empty:
-                    k['lig'] = bulunan_lig_db.iloc[-1].get('Div', 'B1')
-                else:
-                    k['lig'] = 'B1'
-            else:
-                k['lig'] = 'B1'
-            guncellendi = True
+        if pd.isna(kayit_tarihi):
+            continue
+
+        # 📌 Lig bilgisi eksikse veya NaN ise, o tarihteki veritabanı kayıtlarından GERÇEK LİGİNİ akıllıca bulup eşleştiriyoruz
+        lig_val = k.get('lig')
+        if not lig_val or str(lig_val) in ['nan', 'NaN', 'None', '']:
+            bulunan_lig_db = db[
+                (db['HomeTeam'] == ev) & 
+                (db['AwayTeam'] == dep) & 
+                (db['Date'].dt.date >= (kayit_tarihi.date() - timedelta(days=2))) &
+                (db['Date'].dt.date <= (kayit_tarihi.date() + timedelta(days=2)))
+            ]
+            if not bulunan_lig_db.empty:
+                k['lig'] = str(bulunan_lig_db.iloc[-1].get('Div', 'B1'))
+                guncellendi = True
 
         # Bugünün tarihini içeren tahminler henüz oynanmadığı için sonuç kontrolüne SOKULMAZ
         if k.get('tarih') == bugun:
-            continue
-
-        kayit_tarihi = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
-        if pd.isna(kayit_tarihi):
             continue
 
         mac_bulundu = db[
@@ -182,11 +176,11 @@ def gecmis_uclu_sonuclarini_guncelle(db):
                 fthg, ftag = int(son_mac['FTHG']), int(son_mac['FTAG'])
                 k['gercek_skor'] = f"{fthg}-{ftag}"
                 
-                # Resmi maç kaydındaki güncel lig kodunu eşitle
+                # Resmi maç kaydındaki doğru lig kodunu her zaman teyit et
                 gercek_lig = son_mac.get('Div')
                 if gercek_lig and str(gercek_lig) not in ['nan', 'NaN', 'None', '']:
-                    if k.get('lig') != gercek_lig:
-                        k['lig'] = gercek_lig
+                    if k.get('lig') != str(gercek_lig):
+                        k['lig'] = str(gercek_lig)
                         guncellendi = True
 
                 tahmin = k['tahmin']
@@ -235,10 +229,9 @@ def aylik_lig_basari_analizi():
 
     aylik_ligler = {}
     for k in kontrol_edilenler:
-        lig = k.get('lig')
-        # Ligi NaN olanlar rapora 'B1' olarak yansıtılır, böylece istatistikten kopmazlar
-        if not lig or str(lig) in ['nan', 'NaN', 'None', '']:
-            lig = 'B1'
+        lig = str(k.get('lig', 'B1'))
+        if not lig or lig in ['nan', 'NaN', 'None', '']:
+            continue
 
         kayit_ayi = k.get('ay')
         if not kayit_ayi and 'tarih' in k:
