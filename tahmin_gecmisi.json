@@ -2066,13 +2066,13 @@
     {
         "tarih": "16/11/2026",
         "ay": "2026-11",
-        "lig": NaN,
+        "lig": "nan",
         "ev": "Albacete",
         "dep": "Celta B",
         "tahmin": "HMS 1",
         "skor_tahmini": "3-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
+        "sonuc_kontrol_edildi": true,
+        "gercek_skor": "1-0",
+        "tuttu": true
     }
 ]
