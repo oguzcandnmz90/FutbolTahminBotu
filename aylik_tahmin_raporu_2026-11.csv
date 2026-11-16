@@ -42,7 +42,7 @@
 07/11/2026;2026-11;SC0;Dundee United;Motherwell;HMS 1;2-0;True;1-1;False
 07/11/2026;2026-11;SC0;St Johnstone;Dundee;ÇŞ X2;1-1;True;2-1;False
 07/11/2026;2026-11;SC0;Aberdeen;Hibernian;MS 1;1-0;True;0-4;False
-07/11/2026;2026-11;;St Mirren;Rangers;MS 2;1-2;True;0-2;True
+07/11/2026;2026-11;nan;St Mirren;Rangers;MS 2;1-2;True;0-2;True
 07/11/2026;2026-11;SP1;Malaga;Santander;MS 0;1-1;True;1-2;False
 07/11/2026;2026-11;SP1;Espanol;La Coruna;ÇŞ X2;1-1;True;0-0;True
 07/11/2026;2026-11;SP1;Osasuna;Ath Bilbao;MS 1;1-0;True;1-1;False
@@ -105,7 +105,7 @@
 07/11/2026;2026-11;SP1;Valencia;Real Madrid;HMS 2;0-2;True;0-3;True
 07/11/2026;2026-11;SP2;Burgos;Celta B;MS 1;2-1;True;2-1;True
 07/11/2026;2026-11;SP2;Cadiz;Oviedo;MS 0;2-2;True;1-2;False
-07/11/2026;2026-11;;Cordoba;Ceuta;HMS 1;2-0;True;3-0;True
+07/11/2026;2026-11;nan;Cordoba;Ceuta;HMS 1;2-0;True;3-0;True
 07/11/2026;2026-11;SP2;Leganes;Albacete;ÇŞ 1X;1-0;True;1-3;False
 07/11/2026;2026-11;T1;Eyupspor;Kocaelispor;HMS 2;0-2;True;0-2;True
 07/11/2026;2026-11;T1;Samsunspor;Konyaspor;ÇŞ X2;1-1;True;1-0;False
@@ -161,13 +161,14 @@
 08/11/2026;2026-11;T1;Corum;Fenerbahce;2.5 ÜST;2-1;True;0-5;True
 08/11/2026;2026-11;T1;Alanyaspor;Trabzonspor;HMS 2;1-3;True;0-2;True
 08/11/2026;2026-11;T1;Besiktas;Genclerbirligi;HMS 1;3-0;True;3-0;True
-13/11/2026;2026-11;SP2;Leganes;Burgos;HMS 2;1-3;False;;
-14/11/2026;2026-11;SP2;Valladolid;Castellon;ÇŞ X2;3-3;False;;
-14/11/2026;2026-11;SP2;Sociedad B;Sp Gijon;MS 2;0-1;False;;
-14/11/2026;2026-11;SP2;Almeria;Andorra;HMS 1;3-1;False;;
-14/11/2026;2026-11;SP2;Mallorca;Cordoba;MS 1;2-1;False;;
-14/11/2026;2026-11;SP2;Oviedo;Girona;MS 1;1-0;False;;
-15/11/2026;2026-11;SP2;Tenerife;Ceuta;MS 1;2-1;False;;
-15/11/2026;2026-11;SP2;Granada;Las Palmas;MS 1;3-2;False;;
-15/11/2026;2026-11;SP2;Eibar;Cadiz;MS 1;2-1;False;;
-15/11/2026;2026-11;SP2;Eldense;Sabadell;ÇŞ 1X;1-1;False;;
+13/11/2026;2026-11;SP2;Leganes;Burgos;HMS 2;1-3;True;3-1;False
+14/11/2026;2026-11;SP2;Valladolid;Castellon;ÇŞ X2;3-3;True;0-1;True
+14/11/2026;2026-11;SP2;Sociedad B;Sp Gijon;MS 2;0-1;True;2-2;False
+14/11/2026;2026-11;SP2;Almeria;Andorra;HMS 1;3-1;True;2-1;True
+14/11/2026;2026-11;SP2;Mallorca;Cordoba;MS 1;2-1;True;3-3;False
+14/11/2026;2026-11;SP2;Oviedo;Girona;MS 1;1-0;True;1-2;False
+15/11/2026;2026-11;SP2;Tenerife;Ceuta;MS 1;2-1;True;2-0;True
+15/11/2026;2026-11;SP2;Granada;Las Palmas;MS 1;3-2;True;1-0;True
+15/11/2026;2026-11;SP2;Eibar;Cadiz;MS 1;2-1;True;1-1;False
+15/11/2026;2026-11;SP2;Eldense;Sabadell;ÇŞ 1X;1-1;True;2-0;True
+16/11/2026;2026-11;;Albacete;Celta B;HMS 1;3-1;False;;
