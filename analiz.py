@@ -95,7 +95,7 @@ def ilk_yari_savunma_verimliligi(df, takim, saha='H'):
 
 def seri_bul(df, takim):
     if 'Date' in df.columns: df = df.sort_values('Date')
-    maclar = df[(df['HomeTeam'] == takim) | (db['AwayTeam'] == takim)].tail(5)
+    maclar = df[(df['HomeTeam'] == takim) | (df['AwayTeam'] == takim)].tail(5)
     if maclar.empty: return "Veri Yok"
     seri_list = []
     for _, r in maclar.iterrows():
@@ -146,7 +146,6 @@ def gecmis_uclu_sonuclarini_guncelle(db):
         if pd.isna(kayit_tarihi):
             continue
 
-        # 📌 Lig bilgisi eksikse veya NaN ise, o tarihteki veritabanı kayıtlarından GERÇEK LİGİNİ akıllıca bulup eşleştiriyoruz
         lig_val = k.get('lig')
         if not lig_val or str(lig_val) in ['nan', 'NaN', 'None', '']:
             bulunan_lig_db = db[
@@ -159,7 +158,6 @@ def gecmis_uclu_sonuclarini_guncelle(db):
                 k['lig'] = str(bulunan_lig_db.iloc[-1].get('Div', 'B1'))
                 guncellendi = True
 
-        # Bugünün tarihini içeren tahminler henüz oynanmadığı için sonuç kontrolüne SOKULMAZ
         if k.get('tarih') == bugun:
             continue
 
@@ -174,18 +172,24 @@ def gecmis_uclu_sonuclarini_guncelle(db):
             son_mac = mac_bulundu.iloc[-1]
             if not pd.isna(son_mac['FTR']):
                 fthg, ftag = int(son_mac['FTHG']), int(son_mac['FTAG'])
-                k['gercek_skor'] = f"{fthg}-{ftag}"
+                gercek_skor_str = f"{fthg}-{ftag}"
+                k['gercek_skor'] = gercek_skor_str
                 
-                # Resmi maç kaydındaki doğru lig kodunu her zaman teyit et
                 gercek_lig = son_mac.get('Div')
                 if gercek_lig and str(gercek_lig) not in ['nan', 'NaN', 'None', '']:
                     if k.get('lig') != str(gercek_lig):
                         k['lig'] = str(gercek_lig)
                         guncellendi = True
 
+                # Birebir skor tahmini kontrolü
+                tahmin_skor = str(k.get('skor_tahmini', '')).strip()
+                skor_tuttu = (tahmin_skor == gercek_skor_str) if tahmin_skor else False
+                if k.get('skor_tuttu') != skor_tuttu:
+                    k['skor_tuttu'] = skor_tuttu
+                    guncellendi = True
+
                 tahmin = k['tahmin']
                 
-                # Çifte şans ve diğer tüm kurallarla yeniden denetle / doğrula
                 if not k.get('sonuc_kontrol_edildi', False) or ("ÇŞ" in tahmin or "ç" in tahmin):
                     tuttu = False
                     if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
@@ -213,6 +217,30 @@ def gecmis_uclu_sonuclarini_guncelle(db):
     basarili = sum(1 for x in kontrol_edilenler if x.get('tuttu', False))
     oran = round((basarili / len(kontrol_edilenler)) * 100, 1)
     return f"📈 **GENEL BAŞARI:** %{oran} ({basarili}/{len(kontrol_edilenler)} Maç)"
+
+def skor_tahmini_basari_analizi():
+    if not os.path.exists(LOG_DOSYASI):
+        return "🎲 **SKOR TAHMİNİ BAŞARISI:** Henüz kayıt yok."
+    try:
+        with open(LOG_DOSYASI, 'r', encoding='utf-8') as f:
+            kayitlar = json.load(f)
+    except:
+        return "Log dosyası okunamadı."
+
+    skor_kontrollu = [
+        x for x in kayitlar
+        if x.get('sonuc_kontrol_edildi', False) and x.get('skor_tahmini') and x.get('gercek_skor')
+    ]
+    if not skor_kontrollu:
+        return "🎲 **SKOR TAHMİNİ BAŞARISI:** Henüz sonuçlanan skor tahmini yok."
+
+    tutan_skor = sum(
+        1 for x in skor_kontrollu
+        if x.get('skor_tuttu', str(x.get('skor_tahmini')).strip() == str(x.get('gercek_skor')).strip())
+    )
+    oran = round((tutan_skor / len(skor_kontrollu)) * 100, 1)
+    ikon = "🟢" if oran >= 20 else ("🟡" if oran >= 10 else "🔴")
+    return f"{ikon} **SKOR TAHMİNİ BAŞARISI:** %{oran} ({tutan_skor}/{len(skor_kontrollu)} Birebir Skor)"
 
 def aylik_lig_basari_analizi():
     if not os.path.exists(LOG_DOSYASI):
@@ -587,7 +615,8 @@ for row in bugun_maclari:
         "skor_tahmini": h_skor,
         "sonuc_kontrol_edildi": False,
         "gercek_skor": None,
-        "tuttu": None
+        "tuttu": None,
+        "skor_tuttu": None
     })
 
     rapor = (f"⏰ {ham_saat} | {ev} - {dep}\n🎯 TAHMİN: {t_str}\n"
@@ -615,11 +644,13 @@ iyms_havuzu.sort(key=lambda x: x[0], reverse=True)
 ust25_havuzu.sort(key=lambda x: x[0], reverse=True)
 
 banko_kupon_metni = banko_kupon_olustur(kasa_havuzu)
+skor_basari_metni = skor_tahmini_basari_analizi()
 aylik_lig_analiz_metni = aylik_lig_basari_analizi()
 tahmin_turu_analiz_metni = tahmin_turu_basari_analizi()
 
 header = f"🏟️ {bugun} BERO TUTARLI ANALİZ\n━━━━━━━━━━━━━━━\n"
-header += f"{gecmis_basari_ozeti}\n\n"
+header += f"{gecmis_basari_ozeti}\n"
+header += f"{skor_basari_metni}\n\n"
 header += f"{aylik_lig_analiz_metni}\n\n"
 header += f"{tahmin_turu_analiz_metni}\n\n"
 header += f"{banko_kupon_metni}\n\n"
