@@ -1,9 +1,6 @@
 name: Bero Futbol Analiz Botu
 
 on:
-  schedule:
-    - cron: '30 14 * * 1-5'   # Hafta içi (Pzt-Cuma) 17:30 TSI (UTC 14:30)
-    - cron: '0 6 * * 6,0'     # Hafta sonu (Cmt-Pazar) 09:00 TSI (UTC 06:00)
   repository_dispatch:
     types: [run-bot]
   workflow_dispatch:
@@ -35,7 +32,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "4189282+github-actions[bot]@users.noreply.github.com"
-          git add tahmin_gecmisi.json aylik_tahmin_raporu_*.csv
+          git add tahmin_gecmisi.json aylik_tahmin_raporu_*.csv 2>/dev/null || true
           git commit -m "otomatik: günlük tahmin logları güncellendi" || echo "Değişiklik yok"
-          git pull origin main --rebase
-          git push origin main
+          git pull origin main --rebase || true
+          git push origin main || echo "Push atlandı veya değişiklik yok"
