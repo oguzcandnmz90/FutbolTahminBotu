@@ -2,19 +2,6 @@
     {
         "tarih": "07/11/2026",
         "ay": "2026-11",
-        "lig": "T1",
-        "ev": "Goztep",
-        "dep": "Buyuksehyr",
-        "tahmin": "MS 1",
-        "skor_tahmini": "2-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "1-2",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "07/11/2026",
-        "ay": "2026-11",
         "lig": "B1",
         "ev": "Westerlo",
         "dep": "Charleroi",
