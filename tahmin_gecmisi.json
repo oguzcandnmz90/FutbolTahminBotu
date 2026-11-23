@@ -2922,5 +2922,70 @@
         "gercek_skor": null,
         "tuttu": null,
         "skor_tuttu": null
+    },
+    {
+        "tarih": "23/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Brentford",
+        "dep": "Everton",
+        "tahmin": "MS 0",
+        "skor_tahmini": "1-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "23/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Monza",
+        "dep": "Fiorentina",
+        "tahmin": "ÇŞ X2",
+        "skor_tahmini": "2-2",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "23/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Levante",
+        "dep": "Elche",
+        "tahmin": "ÇŞ X2",
+        "skor_tahmini": "1-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "23/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Ceuta",
+        "dep": "Almeria",
+        "tahmin": "HMS 2",
+        "skor_tahmini": "0-2",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "23/11/2026",
+        "ay": "2026-11",
+        "lig": NaN,
+        "ev": "Buyuksehyr",
+        "dep": "Corum",
+        "tahmin": "MS 1",
+        "skor_tahmini": "4-3",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
     }
 ]
