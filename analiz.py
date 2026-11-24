@@ -41,7 +41,45 @@ BIG_TEAMS = ['Real Madrid','Barcelona','Bayern Munich','Man City','Liverpool','A
 LIG_CARPANLARI = {'E0': 1.18, 'D1': 1.16, 'SP1': 1.16, 'I1': 1.14, 'F1': 1.12, 'T1': 1.06, 'E1': 0.85}
 
 # --- YARDIMCI FONKSİYONLAR ---
+def gecerli_lig_mi(deger):
+    if deger is None or pd.isna(deger):
+        return False
+    s = str(deger).strip()
+    return bool(s) and s.lower() not in ['nan', 'none', 'null', 'nat', 'bilinmiyor']
+
+def takim_son_ligi_bul(db, takim, referans_tarih=None):
+    if 'Div' not in db.columns:
+        return None
+    maclar = db[(db['HomeTeam'] == takim) | (db['AwayTeam'] == takim)]
+    if referans_tarih is not None and not pd.isna(referans_tarih):
+        maclar = maclar[maclar['Date'].dt.date <= referans_tarih.date()]
+    maclar = maclar.dropna(subset=['Div'])
+    if maclar.empty:
+        return None
+    son_lig = str(maclar.iloc[-1]['Div']).strip()
+    return son_lig if gecerli_lig_mi(son_lig) else None
+
+def mac_ligini_tespit_et(row, db, ev, dep, referans_tarih=None):
+    # 1. Öncelik: Fikstür satırındaki Div
+    if isinstance(row, dict) and gecerli_lig_mi(row.get('Div')):
+        return str(row.get('Div')).strip()
+
+    # 2. Öncelik: İki takımın ortak/son lig verisi
+    ev_lig = takim_son_ligi_bul(db, ev, referans_tarih)
+    dep_lig = takim_son_ligi_bul(db, dep, referans_tarih)
+
+    if ev_lig and dep_lig and ev_lig == dep_lig:
+        return ev_lig
+    if ev_lig:
+        return ev_lig
+    if dep_lig:
+        return dep_lig
+
+    return "Bilinmiyor"
+
 def lig_ortalamasi_hesapla(df, lig_kodu):
+    if not gecerli_lig_mi(lig_kodu):
+        return 1.3
     lig_verileri = df[(df['Div'] == lig_kodu) & (df['Sezon'].isin(['2425','2526','2627']))]
     if lig_verileri.empty: return 1.3
     toplam_mac = len(lig_verileri)
@@ -116,22 +154,22 @@ def tahminleri_kaydet(bugun_tahminleri):
                 veri = json.load(f)
         except:
             veri = []
-    
-    mevcut_anahtarlar = {f"{x['tarih']}_{x['ev']}_{x['dep']}" for x in veri}
-    yeni_eklenenler = 0
+
+    mevcut_anahtarlar = {f"{x.get('tarih')}_{x.get('ev')}_{x.get('dep')}" for x in veri}
     for item in bugun_tahminleri:
+        if not gecerli_lig_mi(item.get('lig')):
+            item['lig'] = "Bilinmiyor"
         anahtar = f"{item['tarih']}_{item['ev']}_{item['dep']}"
         if anahtar not in mevcut_anahtarlar:
             veri.append(item)
-            yeni_eklenenler += 1
+            mevcut_anahtarlar.add(anahtar)
 
     with open(LOG_DOSYASI, 'w', encoding='utf-8') as f:
         json.dump(veri, f, ensure_ascii=False, indent=4)
-    print(f"💾 {yeni_eklenenler} yeni tahmin log dosyasına işlendi.")
 
 def gecmis_uclu_sonuclarini_guncelle(db):
     if not os.path.exists(LOG_DOSYASI):
-        return "📊 Henüz log kaydı bulunmuyor (İlk Çalışma)."
+        return "📊 Henüz log kaydı bulunmuyor."
     try:
         with open(LOG_DOSYASI, 'r', encoding='utf-8') as f:
             kayitlar = json.load(f)
@@ -141,70 +179,63 @@ def gecmis_uclu_sonuclarini_guncelle(db):
     guncellendi = False
     for k in kayitlar:
         ev, dep = k['ev'], k['dep']
-        kayit_tarihi = pd.to_datetime(k['tarih'], format='%d/%m/%Y', errors='coerce')
-        
-        if pd.isna(kayit_tarihi):
-            continue
+        kayit_tarihi = pd.to_datetime(k.get('tarih'), format='%d/%m/%Y', errors='coerce')
 
-        lig_val = k.get('lig')
-        if not lig_val or str(lig_val) in ['nan', 'NaN', 'None', '']:
-            bulunan_lig_db = db[
-                (db['HomeTeam'] == ev) & 
-                (db['AwayTeam'] == dep) & 
-                (db['Date'].dt.date >= (kayit_tarihi.date() - timedelta(days=2))) &
+        if pd.isna(kayit_tarihi):
+            mac_bulundu = db[(db['HomeTeam'] == ev) & (db['AwayTeam'] == dep)]
+        else:
+            mac_bulundu = db[
+                (db['HomeTeam'] == ev) &
+                (db['AwayTeam'] == dep) &
+                (db['Date'].dt.date >= (kayit_tarihi.date() - timedelta(days=1))) &
                 (db['Date'].dt.date <= (kayit_tarihi.date() + timedelta(days=2)))
             ]
-            if not bulunan_lig_db.empty:
-                k['lig'] = str(bulunan_lig_db.iloc[-1].get('Div', 'B1'))
+
+        # Eksik/nan lig varsa gerçek veriden bulmaya çalış (uydurma lig yazma)
+        if not gecerli_lig_mi(k.get('lig')):
+            bulunan_lig = None
+            if not mac_bulundu.empty and 'Div' in mac_bulundu.columns:
+                div_val = mac_bulundu.iloc[-1]['Div']
+                if gecerli_lig_mi(div_val):
+                    bulunan_lig = str(div_val).strip()
+            if not bulunan_lig:
+                bulunan_lig = mac_ligini_tespit_et({}, db, ev, dep, kayit_tarihi if not pd.isna(kayit_tarihi) else None)
+            if bulunan_lig and bulunan_lig != k.get('lig'):
+                k['lig'] = bulunan_lig
                 guncellendi = True
 
-        if k.get('tarih') == bugun:
+        if k.get('sonuc_kontrol_edildi', False):
+            if k.get('gercek_skor') and k.get('skor_tahmini') and 'skor_tuttu' not in k:
+                k['skor_tuttu'] = (str(k.get('skor_tahmini')).strip() == str(k.get('gercek_skor')).strip())
+                guncellendi = True
             continue
 
-        mac_bulundu = db[
-            (db['HomeTeam'] == ev) & 
-            (db['AwayTeam'] == dep) & 
-            (db['Date'].dt.date >= (kayit_tarihi.date() - timedelta(days=1))) &
-            (db['Date'].dt.date <= (kayit_tarihi.date() + timedelta(days=1)))
-        ]
-        
         if not mac_bulundu.empty:
             son_mac = mac_bulundu.iloc[-1]
             if not pd.isna(son_mac['FTR']):
                 fthg, ftag = int(son_mac['FTHG']), int(son_mac['FTAG'])
                 gercek_skor_str = f"{fthg}-{ftag}"
                 k['gercek_skor'] = gercek_skor_str
-                
-                gercek_lig = son_mac.get('Div')
-                if gercek_lig and str(gercek_lig) not in ['nan', 'NaN', 'None', '']:
-                    if k.get('lig') != str(gercek_lig):
-                        k['lig'] = str(gercek_lig)
-                        guncellendi = True
+                if 'Div' in son_mac and gecerli_lig_mi(son_mac['Div']):
+                    k['lig'] = str(son_mac['Div']).strip()
 
-                # Birebir skor tahmini kontrolü
-                tahmin_skor = str(k.get('skor_tahmini', '')).strip()
-                skor_tuttu = (tahmin_skor == gercek_skor_str) if tahmin_skor else False
-                if k.get('skor_tuttu') != skor_tuttu:
-                    k['skor_tuttu'] = skor_tuttu
-                    guncellendi = True
+                if k.get('skor_tahmini'):
+                    k['skor_tuttu'] = (str(k.get('skor_tahmini')).strip() == gercek_skor_str)
 
                 tahmin = k['tahmin']
-                
-                if not k.get('sonuc_kontrol_edildi', False) or ("ÇŞ" in tahmin or "ç" in tahmin):
-                    tuttu = False
-                    if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
-                    elif "2.5 ALT" in tahmin and (fthg + ftag) < 3: tuttu = True
-                    elif "KG VAR" in tahmin and fthg > 0 and ftag > 0: tuttu = True
-                    elif "MS 1" in tahmin and son_mac['FTR'] == 'H': tuttu = True
-                    elif "MS 2" in tahmin and son_mac['FTR'] == 'A': tuttu = True
-                    elif "MS 0" in tahmin and son_mac['FTR'] == 'D': tuttu = True
-                    elif ("ÇŞ 1X" in tahmin or "10ç" in tahmin) and fthg >= ftag: tuttu = True
-                    elif ("ÇŞ X2" in tahmin or "02ç" in tahmin) and ftag >= fthg: tuttu = True
+                tuttu = False
+                if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
+                elif "2.5 ALT" in tahmin and (fthg + ftag) < 3: tuttu = True
+                elif "KG VAR" in tahmin and fthg > 0 and ftag > 0: tuttu = True
+                elif "MS 1" in tahmin and son_mac['FTR'] == 'H': tuttu = True
+                elif "MS 2" in tahmin and son_mac['FTR'] == 'A': tuttu = True
+                elif "MS 0" in tahmin and son_mac['FTR'] == 'D': tuttu = True
+                elif ("ÇŞ 1X" in tahmin or "10ç" in tahmin) and fthg >= ftag: tuttu = True
+                elif ("ÇŞ X2" in tahmin or "02ç" in tahmin) and ftag >= fthg: tuttu = True
 
-                    if k.get('tuttu') != tuttu or not k.get('sonuc_kontrol_edildi', False):
-                        k['tuttu'] = tuttu
-                        k['sonuc_kontrol_edildi'] = True
-                        guncellendi = True
+                k['tuttu'] = tuttu
+                k['sonuc_kontrol_edildi'] = True
+                guncellendi = True
 
     if guncellendi:
         with open(LOG_DOSYASI, 'w', encoding='utf-8') as f:
@@ -212,8 +243,7 @@ def gecmis_uclu_sonuclarini_guncelle(db):
 
     kontrol_edilenler = [x for x in kayitlar if x.get('sonuc_kontrol_edildi', False)]
     if not kontrol_edilenler:
-        return "📊 **GENEL BAŞARI:** Henüz sonuçlanan geçmiş maç yok (Sonuçlar bekleniyor)."
-    
+        return "📊 Sonuçlanan maç logu yok."
     basarili = sum(1 for x in kontrol_edilenler if x.get('tuttu', False))
     oran = round((basarili / len(kontrol_edilenler)) * 100, 1)
     return f"📈 **GENEL BAŞARI:** %{oran} ({basarili}/{len(kontrol_edilenler)} Maç)"
@@ -251,24 +281,16 @@ def aylik_lig_basari_analizi():
     except:
         return "Log dosyası okunamadı."
 
-    kontrol_edilenler = [x for x in kayitlar if x.get('sonuc_kontrol_edildi', False)]
+    kontrol_edilenler = [x for x in kayitlar if x.get('sonuc_kontrol_edildi', False) and 'lig' in x and 'ay' in x]
     if not kontrol_edilenler:
         return "🏆 **AYLIK LİG ANALİZİ:** Henüz sonuçlanan maç bulunmuyor."
 
     aylik_ligler = {}
     for k in kontrol_edilenler:
-        lig = str(k.get('lig', 'B1'))
-        if not lig or lig in ['nan', 'NaN', 'None', '']:
-            continue
-
-        kayit_ayi = k.get('ay')
-        if not kayit_ayi and 'tarih' in k:
-            try:
-                kayit_ayi = pd.to_datetime(k['tarih'], format='%d/%m/%Y').strftime('%Y-%m')
-            except:
-                kayit_ayi = bugun_ay_str
-
-        if kayit_ayi == bugun_ay_str:
+        if k['ay'] == bugun_ay_str:
+            lig = str(k.get('lig', '')).strip()
+            if not gecerli_lig_mi(lig):
+                lig = "Bilinmiyor"
             tuttu = k.get('tuttu', False)
             if lig not in aylik_ligler:
                 aylik_ligler[lig] = {'toplam': 0, 'basarili': 0}
@@ -277,7 +299,7 @@ def aylik_lig_basari_analizi():
                 aylik_ligler[lig]['basarili'] += 1
 
     if not aylik_ligler:
-        return f"🏆 **{bugun_ay_str} AYLIK LİG ANALİZİ:** Bu aya ait sonuçlanan maç yok."
+        return f"🏆 **{bugun_ay_str} AYLIK LİG ANALİZİ:** Bu aya ait maç yok."
 
     sonuc_listesi = []
     for lig, veri in aylik_ligler.items():
@@ -485,9 +507,6 @@ kod_map, ters_map = {'H':'1','D':'X','A':'2'}, {'1':'2', 'X':'X', '2':'1'}
 analizler_listesi, kasa_havuzu, gol6_havuzu, iyms_havuzu, ust25_havuzu = [], [], [], [], []
 bugun_log_listesi = []
 
-# --- GEÇMİŞ SKORLARI GÜNCELLEME ÇALIŞTIRMASI ---
-gecmis_basari_ozeti = gecmis_uclu_sonuclarini_guncelle(db)
-
 for row in bugun_maclari:
     ev, dep = str(row['HomeTeam']).strip(), str(row['AwayTeam']).strip()
     ham_saat_str = str(row['Time']).strip() if 'Time' in row else "00:00"
@@ -509,7 +528,7 @@ for row in bugun_maclari:
 
     if bu_sezon_ev.empty or bu_sezon_dep.empty: continue
 
-    lig_kodu = row.get('Div', bu_sezon_ev.iloc[-1]['Div'] if 'Div' in bu_sezon_ev.columns else 'B1')
+    lig_kodu = mac_ligini_tespit_et(row, db, ev, dep, simdi_tsi)
     lig_carpani = LIG_CARPANLARI.get(lig_kodu, 1.0)
     ev_seri, dep_seri = seri_bul(bu_sezon_ev, ev), seri_bul(bu_sezon_dep, dep)
 
@@ -604,7 +623,6 @@ for row in bugun_maclari:
 
     kasa_havuzu.append((abs_diff, f"💎 {ev}-{dep} | {t_str}"))
 
-    # Log listesine ekleme
     bugun_log_listesi.append({
         "tarih": bugun,
         "ay": bugun_ay_str,
@@ -632,7 +650,6 @@ for row in bugun_maclari:
              f"📈 FORM: E({ev_seri}) D({dep_seri})\n───────────────")
     analizler_listesi.append(rapor)
 
-# Günlük tahminleri kaydet ve Excel CSV yedeğini al
 if bugun_log_listesi:
     tahminleri_kaydet(bugun_log_listesi)
     json_loglarini_csvye_donustur()
@@ -644,6 +661,7 @@ iyms_havuzu.sort(key=lambda x: x[0], reverse=True)
 ust25_havuzu.sort(key=lambda x: x[0], reverse=True)
 
 banko_kupon_metni = banko_kupon_olustur(kasa_havuzu)
+gecmis_basari_ozeti = gecmis_uclu_sonuclarini_guncelle(db)
 skor_basari_metni = skor_tahmini_basari_analizi()
 aylik_lig_analiz_metni = aylik_lig_basari_analizi()
 tahmin_turu_analiz_metni = tahmin_turu_basari_analizi()
