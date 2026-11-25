@@ -1561,7 +1561,7 @@
     {
         "tarih": "20/11/2026",
         "ay": "2026-11",
-        "lig": "D1",
+        "lig": "D2",
         "ev": "Darmstadt",
         "dep": "Heidenheim",
         "tahmin": "MS 1",
@@ -1678,7 +1678,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "D2",
+        "lig": "D1",
         "ev": "Elversberg",
         "dep": "Freiburg",
         "tahmin": "ÇŞ 1X",
@@ -1730,7 +1730,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "D2",
+        "lig": "D1",
         "ev": "Schalke 04",
         "dep": "Stuttgart",
         "tahmin": "HMS 2",
@@ -1769,7 +1769,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "D1",
+        "lig": "D2",
         "ev": "Wolfsburg",
         "dep": "Holstein Kiel",
         "tahmin": "HMS 1",
@@ -1847,7 +1847,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "E1",
+        "lig": "E0",
         "ev": "Coventry",
         "dep": "Crystal Palace",
         "tahmin": "MS 1",
@@ -1938,7 +1938,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "Bilinmiyor",
+        "lig": "E1",
         "ev": "Lincoln",
         "dep": "Wrexham",
         "tahmin": "MS 1",
@@ -1964,7 +1964,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Sheffield United",
         "dep": "Watford",
         "tahmin": "HMS 1",
@@ -2003,7 +2003,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "West Ham",
         "dep": "Preston",
         "tahmin": "MS 1",
@@ -2016,7 +2016,7 @@
     {
         "tarih": "21/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Wolves",
         "dep": "Charlton",
         "tahmin": "HMS 1",
@@ -2562,7 +2562,7 @@
     {
         "tarih": "22/11/2026",
         "ay": "2026-11",
-        "lig": "E1",
+        "lig": "E0",
         "ev": "Hull",
         "dep": "Brighton",
         "tahmin": "MS 2",
@@ -2588,7 +2588,7 @@
     {
         "tarih": "22/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Burnley",
         "dep": "Blackburn",
         "tahmin": "ÇŞ X2",
@@ -2770,7 +2770,7 @@
     {
         "tarih": "22/11/2026",
         "ay": "2026-11",
-        "lig": "SP2",
+        "lig": "SP1",
         "ev": "Santander",
         "dep": "Sociedad",
         "tahmin": "ÇŞ X2",
@@ -2848,7 +2848,7 @@
     {
         "tarih": "22/11/2026",
         "ay": "2026-11",
-        "lig": "SP1",
+        "lig": "SP2",
         "ev": "Girona",
         "dep": "Eibar",
         "tahmin": "MS 1",
@@ -2965,7 +2965,7 @@
     {
         "tarih": "23/11/2026",
         "ay": "2026-11",
-        "lig": "SP1",
+        "lig": "SP2",
         "ev": "Ceuta",
         "dep": "Almeria",
         "tahmin": "HMS 2",
