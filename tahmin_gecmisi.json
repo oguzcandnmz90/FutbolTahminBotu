@@ -3056,7 +3056,7 @@
     {
         "tarih": "24/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Portsmouth",
         "dep": "West Ham",
         "tahmin": "MS 1",
@@ -3069,7 +3069,7 @@
     {
         "tarih": "24/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Sheffield United",
         "dep": "Southampton",
         "tahmin": "MS 1",
@@ -3082,7 +3082,7 @@
     {
         "tarih": "24/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Wolves",
         "dep": "Derby",
         "tahmin": "HMS 1",
@@ -3134,7 +3134,7 @@
     {
         "tarih": "25/11/2026",
         "ay": "2026-11",
-        "lig": "E0",
+        "lig": "E1",
         "ev": "Burnley",
         "dep": "Birmingham",
         "tahmin": "MS 2",
