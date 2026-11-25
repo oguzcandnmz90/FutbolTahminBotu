@@ -3117,5 +3117,57 @@
         "gercek_skor": null,
         "tuttu": null,
         "skor_tuttu": null
+    },
+    {
+        "tarih": "25/11/2026",
+        "ay": "2026-11",
+        "lig": "E1",
+        "ev": "Bolton",
+        "dep": "West Brom",
+        "tahmin": "MS 2",
+        "skor_tahmini": "1-2",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "25/11/2026",
+        "ay": "2026-11",
+        "lig": "E0",
+        "ev": "Burnley",
+        "dep": "Birmingham",
+        "tahmin": "MS 2",
+        "skor_tahmini": "1-2",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "25/11/2026",
+        "ay": "2026-11",
+        "lig": "E1",
+        "ev": "Watford",
+        "dep": "Blackburn",
+        "tahmin": "ÇŞ 1X",
+        "skor_tahmini": "1-1",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
+    },
+    {
+        "tarih": "25/11/2026",
+        "ay": "2026-11",
+        "lig": "E1",
+        "ev": "Stoke",
+        "dep": "Millwall",
+        "tahmin": "HMS 1",
+        "skor_tahmini": "2-0",
+        "sonuc_kontrol_edildi": false,
+        "gercek_skor": null,
+        "tuttu": null,
+        "skor_tuttu": null
     }
 ]
