@@ -1,245 +1,247 @@
-﻿tarih;ay;lig;ev;dep;tahmin;skor_tahmini;sonuc_kontrol_edildi;gercek_skor;tuttu;skor_tuttu
-07/11/2026;2026-11;B1;Westerlo;Charleroi;MS 2;2-3;True;1-5;True;False
-07/11/2026;2026-11;B1;Oud-Heverlee Leuven;Mechelen;ÇŞ X2;1-1;True;2-0;False;False
-07/11/2026;2026-11;B1;Antwerp;Lommel SK;ÇŞ X2;2-2;True;2-2;True;True
-07/11/2026;2026-11;B1;RAAL La Louviere;Cercle Brugge;MS 1;2-1;True;0-1;False;False
-07/11/2026;2026-11;D1;Dortmund;Elversberg;HMS 1;3-1;True;2-1;True;False
-07/11/2026;2026-11;D1;Mainz;Bayern Munich;HMS 2;1-3;True;1-2;True;False
-07/11/2026;2026-11;D1;Paderborn;Ein Frankfurt;MS 1;2-1;True;2-2;False;False
-07/11/2026;2026-11;D1;RB Leipzig;Augsburg;HMS 1;5-3;True;5-2;True;False
-07/11/2026;2026-11;D1;Stuttgart;Werder Bremen;HMS 2;0-2;True;1-0;False;False
-07/11/2026;2026-11;D2;Holstein Kiel;Bielefeld;ÇŞ X2;1-2;True;1-2;True;True
-07/11/2026;2026-11;D2;Nurnberg;Darmstadt;MS 1;3-0;True;2-0;True;False
-07/11/2026;2026-11;D2;Osnabruck;Kaiserslautern;MS 2;2-3;True;0-1;True;False
-07/11/2026;2026-11;D2;Hertha;Wolfsburg;HMS 1;4-2;True;2-1;True;False
-07/11/2026;2026-11;E0;Leeds;Tottenham;MS 2;1-2;True;1-0;False;False
-07/11/2026;2026-11;E0;Arsenal;Hull;HMS 1;2-0;True;1-0;True;False
-07/11/2026;2026-11;E0;Fulham;Newcastle;ÇŞ 1X;2-2;True;1-1;True;False
-07/11/2026;2026-11;E0;Nott'm Forest;Man City;HMS 2;0-2;True;3-1;False;False
-07/11/2026;2026-11;E1;Bristol City;Norwich;HMS 2;0-3;True;0-5;True;False
-07/11/2026;2026-11;E1;Portsmouth;Stoke;KG VAR;2-2;True;1-2;True;False
-07/11/2026;2026-11;E1;Wrexham;Wolves;MS 2;1-2;True;1-1;False;False
-07/11/2026;2026-11;E1;Birmingham;Swansea;MS 1;3-1;True;2-1;True;False
-07/11/2026;2026-11;E1;Blackburn;West Ham;MS 2;2-3;True;2-1;False;False
-07/11/2026;2026-11;E1;Cardiff;Burnley;MS 1;3-2;True;5-4;True;False
-07/11/2026;2026-11;E1;Charlton;Sheffield United;HMS 2;0-2;True;2-1;False;False
-07/11/2026;2026-11;E1;Preston;Southampton;HMS 2;1-3;True;1-0;False;False
-07/11/2026;2026-11;E1;QPR;Lincoln;MS 1;2-1;True;2-1;True;True
-07/11/2026;2026-11;E1;Watford;Middlesbrough;ÇŞ X2;1-2;True;0-0;True;False
-07/11/2026;2026-11;E1;West Brom;Millwall;HMS 1;2-0;True;3-0;True;False
-07/11/2026;2026-11;F1;Auxerre;Paris FC;MS 1;2-1;True;0-1;False;False
-07/11/2026;2026-11;F1;Paris SG;Troyes;HMS 1;2-0;True;1-0;True;False
-07/11/2026;2026-11;I1;Cagliari;Frosinone;ÇŞ X2;0-2;True;1-0;False;False
-07/11/2026;2026-11;I1;Torino;Lecce;ÇŞ 1X;1-0;True;1-1;True;False
-07/11/2026;2026-11;I1;Parma;Bologna;HMS 2;1-3;True;1-2;True;False
-07/11/2026;2026-11;I1;Roma;Sassuolo;HMS 1;3-1;True;3-0;True;False
-07/11/2026;2026-11;N1;For Sittard;Telstar;HMS 1;3-1;True;2-2;False;False
-07/11/2026;2026-11;N1;Den Haag;Sparta Rotterdam;MS 2;1-2;True;3-1;False;False
-07/11/2026;2026-11;N1;Excelsior;Go Ahead Eagles;ÇŞ X2;1-1;True;0-1;True;False
-07/11/2026;2026-11;P1;Nacional;Academico Viseu;HMS 2;1-3;True;1-0;False;False
-07/11/2026;2026-11;P1;Alverca;Casa Pia;MS 2;0-1;True;1-1;False;False
-07/11/2026;2026-11;P1;Sp Lisbon;Moreirense;ÇŞ X2;1-1;True;1-0;False;False
-07/11/2026;2026-11;SC0;Dundee United;Motherwell;HMS 1;2-0;True;1-1;False;False
-07/11/2026;2026-11;SC0;St Johnstone;Dundee;ÇŞ X2;1-1;True;2-1;False;False
-07/11/2026;2026-11;SC0;Aberdeen;Hibernian;MS 1;1-0;True;0-4;False;False
-07/11/2026;2026-11;SC0;St Mirren;Rangers;MS 2;1-2;True;0-2;True;False
-07/11/2026;2026-11;SP1;Malaga;Santander;MS 0;1-1;True;1-2;False;False
-07/11/2026;2026-11;SP1;Espanol;La Coruna;ÇŞ X2;1-1;True;0-0;True;False
-07/11/2026;2026-11;SP1;Osasuna;Ath Bilbao;MS 1;1-0;True;1-1;False;False
-07/11/2026;2026-11;SP1;Valencia;Real Madrid;HMS 2;0-2;True;0-3;True;False
-07/11/2026;2026-11;SP2;Burgos;Celta B;MS 1;2-1;True;2-1;True;True
-07/11/2026;2026-11;SP2;Cadiz;Oviedo;MS 0;2-2;True;1-2;False;False
-07/11/2026;2026-11;SP2;Cordoba;Ceuta;HMS 1;2-0;True;3-0;True;False
-07/11/2026;2026-11;SP2;Leganes;Albacete;ÇŞ 1X;1-0;True;1-3;False;False
-07/11/2026;2026-11;T1;Eyupspor;Kocaelispor;HMS 2;0-2;True;0-2;True;True
-07/11/2026;2026-11;T1;Samsunspor;Konyaspor;ÇŞ X2;1-1;True;1-0;False;False
-07/11/2026;2026-11;T1;Galatasaray;Amedspor;MS 1;3-2;True;4-3;True;False
-07/11/2026;2026-11;T1;Goztep;Buyuksehyr;MS 1;2-1;True;1-2;False;False
-08/11/2026;2026-11;B1;Club Brugge;Anderlecht;MS 1;2-1;True;1-1;False;False
-08/11/2026;2026-11;B1;Gent;Kortrijk;HMS 1;2-0;True;1-0;True;False
-08/11/2026;2026-11;B1;St. Gilloise;Genk;HMS 1;3-1;True;1-0;True;False
-08/11/2026;2026-11;B1;St Truiden;Waregem;ÇŞ X2;1-1;True;4-1;False;False
-08/11/2026;2026-11;D1;FC Koln;Leverkusen;MS 0;2-2;True;1-2;False;False
-08/11/2026;2026-11;D1;Freiburg;Union Berlin;MS 1;3-0;True;2-0;True;False
-08/11/2026;2026-11;D1;Hoffenheim;Schalke 04;MS 1;2-0;True;2-1;True;False
-08/11/2026;2026-11;D2;Bochum;Karlsruhe;MS 1;1-0;True;3-2;True;False
-08/11/2026;2026-11;D2;Heidenheim;Hannover;MS 1;2-1;True;2-2;False;False
-08/11/2026;2026-11;D2;Magdeburg;St Pauli;HMS 1;3-1;True;4-1;True;False
-08/11/2026;2026-11;E0;Brighton;Brentford;HMS 1;4-2;True;2-0;True;False
-08/11/2026;2026-11;E0;Crystal Palace;Liverpool;HMS 2;1-3;True;1-3;True;True
-08/11/2026;2026-11;E0;Ipswich;Bournemouth;2.5 ÜST;1-2;True;1-2;True;True
-08/11/2026;2026-11;E0;Sunderland;Chelsea;MS 2;0-2;True;1-0;False;False
-08/11/2026;2026-11;E0;Man United;Aston Villa;HMS 2;1-3;True;4-4;False;False
-08/11/2026;2026-11;F1;Rennes;Lille;MS 1;3-1;True;1-2;False;False
-08/11/2026;2026-11;F1;Angers;Nice;ÇŞ X2;1-1;True;0-2;True;False
-08/11/2026;2026-11;F1;Brest;Lyon;ÇŞ 1X;2-1;True;2-0;True;False
-08/11/2026;2026-11;F1;Le Havre;Lorient;MS 2;0-1;True;0-2;True;False
-08/11/2026;2026-11;F1;Le Mans;Monaco;ÇŞ 1X;2-1;True;1-1;True;False
-08/11/2026;2026-11;F1;Lens;Marseille;2.5 ÜST;2-2;True;1-2;True;False
-08/11/2026;2026-11;I1;Napoli;Lazio;HMS 2;2-4;True;1-1;False;False
-08/11/2026;2026-11;I1;Genoa;Milan;MS 0;1-1;True;1-2;False;False
-08/11/2026;2026-11;I1;Monza;Atalanta;ÇŞ 1X;2-1;True;0-1;False;False
-08/11/2026;2026-11;I1;Inter;Como;MS 0;3-3;True;2-0;False;False
-08/11/2026;2026-11;I1;Fiorentina;Juventus;MS 2;0-1;True;2-2;False;False
-08/11/2026;2026-11;N1;Heerenveen;Feyenoord;2.5 ÜST;0-3;True;5-3;True;False
-08/11/2026;2026-11;N1;Twente;Ajax;MS 2;2-4;True;2-2;False;False
-08/11/2026;2026-11;N1;AZ Alkmaar;Groningen;MS 0;0-0;True;4-3;False;False
-08/11/2026;2026-11;N1;Cambuur;PSV Eindhoven;MS 1;4-3;True;2-5;False;False
-08/11/2026;2026-11;N1;Utrecht;Nijmegen;MS 1;2-1;True;2-3;False;False
-08/11/2026;2026-11;P1;Estoril;Maritimo;MS 2;0-1;False;;;
-08/11/2026;2026-11;P1;Santa Clara;Gil Vicente;MS 2;0-1;True;1-2;True;False
-08/11/2026;2026-11;P1;Guimaraes;Porto;HMS 2;0-3;True;1-2;True;False
-08/11/2026;2026-11;P1;Estrela;Benfica;HMS 2;1-3;True;2-3;True;False
-08/11/2026;2026-11;P1;Rio Ave;Sp Braga;MS 0;1-1;True;0-1;False;False
-08/11/2026;2026-11;SC0;Hearts;Falkirk;MS 2;1-2;True;2-5;True;False
-08/11/2026;2026-11;SC0;Celtic;Kilmarnock;HMS 1;3-1;True;1-0;True;False
-08/11/2026;2026-11;SP1;Elche;Betis;MS 2;1-2;True;0-2;True;False
-08/11/2026;2026-11;SP1;Sociedad;Vallecano;HMS 1;2-0;True;1-0;True;False
-08/11/2026;2026-11;SP1;Celta;Levante;MS 1;2-1;True;0-0;False;False
-08/11/2026;2026-11;SP1;Villarreal;Getafe;MS 1;1-0;True;2-0;True;False
-08/11/2026;2026-11;SP1;Ath Madrid;Barcelona;2.5 ÜST;2-4;True;1-2;True;False
-08/11/2026;2026-11;SP2;Girona;Almeria;ÇŞ X2;2-2;True;0-1;True;False
-08/11/2026;2026-11;SP2;Las Palmas;Eldense;MS 0;1-1;True;2-0;False;False
-08/11/2026;2026-11;SP2;Sp Gijon;Valladolid;HMS 1;2-0;True;1-2;False;False
-08/11/2026;2026-11;T1;Rizespor;Erzurumspor;MS 2;1-2;True;2-1;False;False
-08/11/2026;2026-11;T1;Corum;Fenerbahce;2.5 ÜST;2-1;True;0-5;True;False
-08/11/2026;2026-11;T1;Alanyaspor;Trabzonspor;HMS 2;1-3;True;0-2;True;False
-08/11/2026;2026-11;T1;Besiktas;Genclerbirligi;HMS 1;3-0;True;3-0;True;True
-13/11/2026;2026-11;SP2;Leganes;Burgos;HMS 2;1-3;True;3-1;False;False
-14/11/2026;2026-11;SP2;Valladolid;Castellon;ÇŞ X2;3-3;True;0-1;True;False
-14/11/2026;2026-11;SP2;Sociedad B;Sp Gijon;MS 2;0-1;True;2-2;False;False
-14/11/2026;2026-11;SP2;Almeria;Andorra;HMS 1;3-1;True;2-1;True;False
-14/11/2026;2026-11;SP2;Mallorca;Cordoba;MS 1;2-1;True;3-3;False;False
-14/11/2026;2026-11;SP2;Oviedo;Girona;MS 1;1-0;True;1-2;False;False
-15/11/2026;2026-11;SP2;Tenerife;Ceuta;MS 1;2-1;True;2-0;True;False
-15/11/2026;2026-11;SP2;Granada;Las Palmas;MS 1;3-2;True;1-0;True;False
-15/11/2026;2026-11;SP2;Eibar;Cadiz;MS 1;2-1;True;1-1;False;False
-15/11/2026;2026-11;SP2;Eldense;Sabadell;ÇŞ 1X;1-1;True;2-0;True;False
-16/11/2026;2026-11;SP2;Albacete;Celta B;HMS 1;3-1;True;1-0;True;False
-20/11/2026;2026-11;B1;Cercle Brugge;Westerlo;ÇŞ X2;1-2;True;1-0;False;False
-20/11/2026;2026-11;D1;Bayern Munich;FC Koln;HMS 1;5-1;True;1-1;False;False
-20/11/2026;2026-11;D2;Bielefeld;Magdeburg;MS 1;2-0;True;1-2;False;False
-20/11/2026;2026-11;D2;Darmstadt;Heidenheim;MS 1;1-0;True;3-1;True;False
-20/11/2026;2026-11;F1;Troyes;Le Havre;MS 1;3-2;True;3-1;True;False
-20/11/2026;2026-11;SP1;Ath Bilbao;Espanol;MS 1;2-1;True;0-1;False;False
-20/11/2026;2026-11;SP2;Andorra;Leganes;MS 1;1-0;True;1-3;False;False
-21/11/2026;2026-11;B1;Charleroi;St Truiden;HMS 1;3-1;True;2-2;False;False
-21/11/2026;2026-11;B1;Genk;RAAL La Louviere;HMS 1;3-1;True;3-0;True;False
-21/11/2026;2026-11;B1;Mechelen;Club Brugge;MS 2;0-3;True;1-5;True;False
-21/11/2026;2026-11;B1;Waregem;Antwerp;2.5 ÜST;1-2;True;2-2;True;False
-21/11/2026;2026-11;D1;Ein Frankfurt;Hoffenheim;MS 1;3-1;True;1-0;True;False
-21/11/2026;2026-11;D1;Elversberg;Freiburg;ÇŞ 1X;3-2;True;0-1;False;False
-21/11/2026;2026-11;D1;Leverkusen;Paderborn;MS 1;2-0;True;4-0;True;False
-21/11/2026;2026-11;D1;M'gladbach;Dortmund;HMS 2;0-2;True;0-1;True;False
-21/11/2026;2026-11;D1;Union Berlin;RB Leipzig;MS 2;0-1;True;1-5;True;False
-21/11/2026;2026-11;D1;Schalke 04;Stuttgart;HMS 2;0-2;True;0-0;False;False
-21/11/2026;2026-11;D2;Hannover;Greuther Furth;MS 1;2-1;True;2-1;True;True
-21/11/2026;2026-11;D2;Nurnberg;Braunschweig;HMS 1;2-0;True;1-2;False;False
-21/11/2026;2026-11;D2;Wolfsburg;Holstein Kiel;HMS 1;3-0;True;3-0;True;True
-21/11/2026;2026-11;D2;St Pauli;Bochum;ÇŞ X2;1-1;True;2-0;False;False
-21/11/2026;2026-11;E0;Man City;Fulham;MS 1;2-1;True;1-1;False;False
-21/11/2026;2026-11;E0;Aston Villa;Sunderland;MS 1;2-1;True;0-0;False;False
-21/11/2026;2026-11;E0;Bournemouth;Nott'm Forest;HMS 1;2-0;True;2-0;True;True
-21/11/2026;2026-11;E0;Chelsea;Leeds;MS 1;3-1;True;1-4;False;False
-21/11/2026;2026-11;E0;Coventry;Crystal Palace;MS 1;2-1;True;3-2;True;False
-21/11/2026;2026-11;E0;Tottenham;Ipswich;HMS 1;4-2;True;2-0;True;False
-21/11/2026;2026-11;E0;Newcastle;Arsenal;HMS 2;0-2;True;2-2;False;False
-21/11/2026;2026-11;E1;Millwall;QPR;MS 1;2-1;True;0-1;False;False
-21/11/2026;2026-11;E1;Norwich;Cardiff;MS 1;2-1;True;2-1;True;True
-21/11/2026;2026-11;E1;Southampton;Derby;HMS 1;3-1;True;2-0;True;False
-21/11/2026;2026-11;E1;Bolton;Portsmouth;MS 2;1-2;True;1-1;False;False
-21/11/2026;2026-11;E1;Lincoln;Wrexham;MS 1;1-0;True;0-1;False;False
-21/11/2026;2026-11;E1;Middlesbrough;Bristol City;ÇŞ 1X;2-1;True;2-0;True;False
-21/11/2026;2026-11;E1;Sheffield United;Watford;HMS 1;2-0;True;4-0;True;False
-21/11/2026;2026-11;E1;Stoke;Birmingham;MS 1;2-1;True;1-0;True;False
-21/11/2026;2026-11;E1;Swansea;West Brom;MS 2;2-3;True;2-2;False;False
-21/11/2026;2026-11;E1;West Ham;Preston;MS 1;3-1;True;1-1;False;False
-21/11/2026;2026-11;E1;Wolves;Charlton;HMS 1;2-0;True;2-1;True;False
-21/11/2026;2026-11;F1;Nice;Paris SG;MS 2;1-2;True;2-3;True;False
-21/11/2026;2026-11;F1;Lens;Toulouse;ÇŞ 1X;2-2;True;1-1;True;False
-21/11/2026;2026-11;F1;Lille;Lyon;HMS 1;2-0;True;0-1;False;False
-21/11/2026;2026-11;F1;Monaco;Auxerre;MS 1;3-2;True;1-1;False;False
-21/11/2026;2026-11;F1;Strasbourg;Brest;MS 2;1-2;True;0-1;True;False
-21/11/2026;2026-11;I1;Como;Cagliari;HMS 1;3-1;True;2-0;True;False
-21/11/2026;2026-11;I1;Lazio;Lecce;HMS 1;2-0;True;3-0;True;False
-21/11/2026;2026-11;I1;Parma;Roma;HMS 2;1-3;True;1-5;True;False
-21/11/2026;2026-11;I1;Napoli;Torino;ÇŞ X2;1-1;True;1-0;False;False
-21/11/2026;2026-11;N1;Nijmegen;PSV Eindhoven;MS 2;2-3;True;1-4;True;False
-21/11/2026;2026-11;N1;Feyenoord;Excelsior;HMS 1;2-0;True;2-3;False;False
-21/11/2026;2026-11;N1;Utrecht;Cambuur;MS 2;1-2;True;2-3;True;False
-21/11/2026;2026-11;N1;Groningen;Heerenveen;MS 2;1-2;True;1-3;True;False
-21/11/2026;2026-11;N1;Telstar;Zwolle;ÇŞ 1X;2-1;True;1-3;False;False
-21/11/2026;2026-11;SC0;Celtic;St Mirren;HMS 1;3-0;True;4-1;True;False
-21/11/2026;2026-11;SC0;Falkirk;St Johnstone;HMS 1;3-1;True;2-1;True;False
-21/11/2026;2026-11;SC0;Hibernian;Dundee United;MS 2;1-2;True;0-4;True;False
-21/11/2026;2026-11;SC0;Kilmarnock;Aberdeen;MS 1;2-0;True;2-4;False;False
-21/11/2026;2026-11;SC0;Dundee;Hearts;2.5 ÜST;2-1;True;0-8;True;False
-21/11/2026;2026-11;SC0;Motherwell;Rangers;MS 2;1-2;True;1-2;True;True
-21/11/2026;2026-11;SP1;Alaves;La Coruna;MS 0;2-2;True;3-1;False;False
-21/11/2026;2026-11;SP1;Vallecano;Valencia;MS 0;1-1;True;0-1;False;False
-21/11/2026;2026-11;SP1;Sevilla;Betis;ÇŞ X2;1-1;True;1-1;True;True
-21/11/2026;2026-11;SP1;Real Madrid;Celta;HMS 1;2-0;True;2-1;True;False
-21/11/2026;2026-11;SP2;Sabadell;Granada;HMS 2;1-3;True;1-1;False;False
-21/11/2026;2026-11;SP2;Sociedad B;Cadiz;MS 1;2-1;True;0-3;False;False
-21/11/2026;2026-11;SP2;Castellon;Eldense;HMS 1;3-1;True;2-0;True;False
-21/11/2026;2026-11;SP2;Tenerife;Mallorca;ÇŞ 1X;2-1;True;0-0;True;False
-21/11/2026;2026-11;T1;Genclerbirligi;Gaziantep;MS 1;2-1;True;1-0;True;False
-21/11/2026;2026-11;T1;Amedspor;Rizespor;HMS 1;3-1;True;0-2;False;False
-21/11/2026;2026-11;T1;Galatasaray;Samsunspor;HMS 1;3-1;True;2-1;True;False
-21/11/2026;2026-11;T1;Kocaelispor;Fenerbahce;MS 2;1-2;True;2-2;False;False
-22/11/2026;2026-11;B1;Beveren;Gent;HMS 2;1-3;True;1-0;False;False
-22/11/2026;2026-11;B1;Kortrijk;St. Gilloise;HMS 2;1-3;True;0-1;True;False
-22/11/2026;2026-11;B1;Anderlecht;Oud-Heverlee Leuven;MS 1;2-0;True;1-0;True;False
-22/11/2026;2026-11;B1;Lommel SK;Standard;MS 1;3-2;True;1-2;False;False
-22/11/2026;2026-11;D1;Augsburg;Mainz;ÇŞ X2;2-3;True;3-1;False;False
-22/11/2026;2026-11;D1;Werder Bremen;Hamburg;MS 1;2-1;True;4-0;True;False
-22/11/2026;2026-11;D2;Cottbus;Hertha;HMS 2;2-4;True;0-4;True;False
-22/11/2026;2026-11;D2;Kaiserslautern;Dresden;MS 1;2-1;True;2-2;False;False
-22/11/2026;2026-11;D2;Karlsruhe;Osnabruck;HMS 1;3-1;True;0-0;False;False
-22/11/2026;2026-11;E0;Hull;Brighton;MS 2;1-2;True;2-0;False;False
-22/11/2026;2026-11;E0;Liverpool;Man United;MS 1;2-1;True;4-0;True;False
-22/11/2026;2026-11;E1;Burnley;Blackburn;ÇŞ X2;1-1;True;2-2;True;False
-22/11/2026;2026-11;F1;Paris FC;Angers;HMS 1;3-1;True;4-0;True;False
-22/11/2026;2026-11;F1;Lorient;Rennes;MS 1;2-1;True;1-1;False;False
-22/11/2026;2026-11;F1;Marseille;Le Mans;HMS 1;3-1;True;2-3;False;False
-22/11/2026;2026-11;I1;Juventus;Venezia;HMS 1;2-0;True;4-0;True;False
-22/11/2026;2026-11;I1;Bologna;Udinese;MS 1;2-1;True;1-1;False;False
-22/11/2026;2026-11;I1;Sassuolo;Genoa;MS 2;1-2;True;0-2;True;False
-22/11/2026;2026-11;I1;Milan;Frosinone;MS 1;3-2;True;5-1;True;False
-22/11/2026;2026-11;I1;Atalanta;Inter;HMS 2;0-2;True;4-4;False;False
-22/11/2026;2026-11;N1;Twente;Willem II;HMS 1;3-1;True;2-1;True;False
-22/11/2026;2026-11;N1;Ajax;Den Haag;HMS 1;2-0;True;3-0;True;False
-22/11/2026;2026-11;N1;Sparta Rotterdam;AZ Alkmaar;KG VAR;2-1;True;1-5;True;False
-22/11/2026;2026-11;N1;Go Ahead Eagles;For Sittard;ÇŞ 1X;2-2;True;0-1;False;False
-22/11/2026;2026-11;SP1;Barcelona;Villarreal;HMS 1;4-1;True;3-2;True;False
-22/11/2026;2026-11;SP1;Santander;Sociedad;ÇŞ X2;2-3;True;3-2;False;False
-22/11/2026;2026-11;SP1;Osasuna;Malaga;MS 1;2-1;True;1-0;True;False
-22/11/2026;2026-11;SP1;Getafe;Ath Madrid;HMS 2;0-2;True;0-3;True;False
-22/11/2026;2026-11;SP2;Cordoba;Oviedo;ÇŞ 1X;2-1;True;3-0;True;False
-22/11/2026;2026-11;SP2;Sp Gijon;Las Palmas;ÇŞ 1X;1-1;True;0-2;False;False
-22/11/2026;2026-11;SP2;Celta B;Valladolid;ÇŞ X2;2-2;True;1-1;True;False
-22/11/2026;2026-11;SP2;Girona;Eibar;MS 1;3-2;True;2-1;True;False
-22/11/2026;2026-11;SP2;Burgos;Albacete;MS 1;2-1;True;1-0;True;False
-22/11/2026;2026-11;T1;Erzurumspor;Goztep;MS 2;1-2;True;0-1;True;False
-22/11/2026;2026-11;T1;Kasimpasa;Alanyaspor;HMS 1;3-1;True;2-1;True;False
-22/11/2026;2026-11;T1;Konyaspor;Besiktas;ÇŞ X2;0-2;True;2-4;True;False
-22/11/2026;2026-11;T1;Trabzonspor;Eyupspor;HMS 1;3-0;True;1-0;True;False
-23/11/2026;2026-11;E0;Brentford;Everton;MS 0;1-1;True;4-0;False;False
-23/11/2026;2026-11;I1;Monza;Fiorentina;ÇŞ X2;2-2;True;3-0;False;False
-23/11/2026;2026-11;SP2;Levante;Elche;ÇŞ X2;1-1;True;1-1;True;True
-23/11/2026;2026-11;SP2;Ceuta;Almeria;HMS 2;0-2;True;2-3;True;False
-23/11/2026;2026-11;T1;Buyuksehyr;Corum;MS 1;4-3;True;4-2;True;False
-24/11/2026;2026-11;E1;Bristol City;Wrexham;MS 2;0-1;False;;;
-24/11/2026;2026-11;E1;Cardiff;Preston;HMS 1;3-1;False;;;
-24/11/2026;2026-11;E1;Charlton;Lincoln;MS 1;2-1;False;;;
-24/11/2026;2026-11;E1;Middlesbrough;Swansea;HMS 1;3-1;False;;;
-24/11/2026;2026-11;E1;Norwich;QPR;MS 1;2-1;False;;;
-24/11/2026;2026-11;E0;Portsmouth;West Ham;MS 1;4-3;False;;;
-24/11/2026;2026-11;E0;Sheffield United;Southampton;MS 1;2-1;False;;;
-24/11/2026;2026-11;E0;Wolves;Derby;HMS 1;2-0;False;;;
-24/11/2026;2026-11;SC0;Hibernian;Dundee;ÇŞ X2;1-1;False;;;
-24/11/2026;2026-11;SC0;Rangers;Aberdeen;HMS 1;2-0;False;;;
-25/11/2026;2026-11;E1;Bolton;West Brom;MS 2;1-2;False;;;
-25/11/2026;2026-11;E0;Burnley;Birmingham;MS 2;1-2;False;;;
-25/11/2026;2026-11;E1;Watford;Blackburn;ÇŞ 1X;1-1;False;;;
-25/11/2026;2026-11;E1;Stoke;Millwall;HMS 1;2-0;False;;;
+﻿tarih;ay;lig;ev;dep;tahmin;skor_tahmini;sonuc_kontrol_edildi;gercek_skor;tuttu;skor_tuttu;guven_etiketi;sinyal_ozeti
+07/11/2026;2026-11;B1;Westerlo;Charleroi;MS 2;2-3;True;1-5;True;False;;
+07/11/2026;2026-11;B1;Oud-Heverlee Leuven;Mechelen;ÇŞ X2;1-1;True;2-0;False;False;;
+07/11/2026;2026-11;B1;Antwerp;Lommel SK;ÇŞ X2;2-2;True;2-2;True;True;;
+07/11/2026;2026-11;B1;RAAL La Louviere;Cercle Brugge;MS 1;2-1;True;0-1;False;False;;
+07/11/2026;2026-11;D1;Dortmund;Elversberg;HMS 1;3-1;True;2-1;True;False;;
+07/11/2026;2026-11;D1;Mainz;Bayern Munich;HMS 2;1-3;True;1-2;True;False;;
+07/11/2026;2026-11;D1;Paderborn;Ein Frankfurt;MS 1;2-1;True;2-2;False;False;;
+07/11/2026;2026-11;D1;RB Leipzig;Augsburg;HMS 1;5-3;True;5-2;True;False;;
+07/11/2026;2026-11;D1;Stuttgart;Werder Bremen;HMS 2;0-2;True;1-0;False;False;;
+07/11/2026;2026-11;D2;Holstein Kiel;Bielefeld;ÇŞ X2;1-2;True;1-2;True;True;;
+07/11/2026;2026-11;D2;Nurnberg;Darmstadt;MS 1;3-0;True;2-0;True;False;;
+07/11/2026;2026-11;D2;Osnabruck;Kaiserslautern;MS 2;2-3;True;0-1;True;False;;
+07/11/2026;2026-11;D2;Hertha;Wolfsburg;HMS 1;4-2;True;2-1;True;False;;
+07/11/2026;2026-11;E0;Leeds;Tottenham;MS 2;1-2;True;1-0;False;False;;
+07/11/2026;2026-11;E0;Arsenal;Hull;HMS 1;2-0;True;1-0;True;False;;
+07/11/2026;2026-11;E0;Fulham;Newcastle;ÇŞ 1X;2-2;True;1-1;True;False;;
+07/11/2026;2026-11;E0;Nott'm Forest;Man City;HMS 2;0-2;True;3-1;False;False;;
+07/11/2026;2026-11;E1;Bristol City;Norwich;HMS 2;0-3;True;0-5;True;False;;
+07/11/2026;2026-11;E1;Portsmouth;Stoke;KG VAR;2-2;True;1-2;True;False;;
+07/11/2026;2026-11;E1;Wrexham;Wolves;MS 2;1-2;True;1-1;False;False;;
+07/11/2026;2026-11;E1;Birmingham;Swansea;MS 1;3-1;True;2-1;True;False;;
+07/11/2026;2026-11;E1;Blackburn;West Ham;MS 2;2-3;True;2-1;False;False;;
+07/11/2026;2026-11;E1;Cardiff;Burnley;MS 1;3-2;True;5-4;True;False;;
+07/11/2026;2026-11;E1;Charlton;Sheffield United;HMS 2;0-2;True;2-1;False;False;;
+07/11/2026;2026-11;E1;Preston;Southampton;HMS 2;1-3;True;1-0;False;False;;
+07/11/2026;2026-11;E1;QPR;Lincoln;MS 1;2-1;True;2-1;True;True;;
+07/11/2026;2026-11;E1;Watford;Middlesbrough;ÇŞ X2;1-2;True;0-0;True;False;;
+07/11/2026;2026-11;E1;West Brom;Millwall;HMS 1;2-0;True;3-0;True;False;;
+07/11/2026;2026-11;F1;Auxerre;Paris FC;MS 1;2-1;True;0-1;False;False;;
+07/11/2026;2026-11;F1;Paris SG;Troyes;HMS 1;2-0;True;1-0;True;False;;
+07/11/2026;2026-11;I1;Cagliari;Frosinone;ÇŞ X2;0-2;True;1-0;False;False;;
+07/11/2026;2026-11;I1;Torino;Lecce;ÇŞ 1X;1-0;True;1-1;True;False;;
+07/11/2026;2026-11;I1;Parma;Bologna;HMS 2;1-3;True;1-2;True;False;;
+07/11/2026;2026-11;I1;Roma;Sassuolo;HMS 1;3-1;True;3-0;True;False;;
+07/11/2026;2026-11;N1;For Sittard;Telstar;HMS 1;3-1;True;2-2;False;False;;
+07/11/2026;2026-11;N1;Den Haag;Sparta Rotterdam;MS 2;1-2;True;3-1;False;False;;
+07/11/2026;2026-11;N1;Excelsior;Go Ahead Eagles;ÇŞ X2;1-1;True;0-1;True;False;;
+07/11/2026;2026-11;P1;Nacional;Academico Viseu;HMS 2;1-3;True;1-0;False;False;;
+07/11/2026;2026-11;P1;Alverca;Casa Pia;MS 2;0-1;True;1-1;False;False;;
+07/11/2026;2026-11;P1;Sp Lisbon;Moreirense;ÇŞ X2;1-1;True;1-0;False;False;;
+07/11/2026;2026-11;SC0;Dundee United;Motherwell;HMS 1;2-0;True;1-1;False;False;;
+07/11/2026;2026-11;SC0;St Johnstone;Dundee;ÇŞ X2;1-1;True;2-1;False;False;;
+07/11/2026;2026-11;SC0;Aberdeen;Hibernian;MS 1;1-0;True;0-4;False;False;;
+07/11/2026;2026-11;SC0;St Mirren;Rangers;MS 2;1-2;True;0-2;True;False;;
+07/11/2026;2026-11;SP1;Espanol;La Coruna;ÇŞ X2;1-1;True;0-0;True;False;;
+07/11/2026;2026-11;SP1;Osasuna;Ath Bilbao;MS 1;1-0;True;1-1;False;False;;
+07/11/2026;2026-11;SP1;Valencia;Real Madrid;HMS 2;0-2;True;0-3;True;False;;
+07/11/2026;2026-11;SP2;Burgos;Celta B;MS 1;2-1;True;2-1;True;True;;
+07/11/2026;2026-11;SP2;Cordoba;Ceuta;HMS 1;2-0;True;3-0;True;False;;
+07/11/2026;2026-11;SP2;Leganes;Albacete;ÇŞ 1X;1-0;True;1-3;False;False;;
+07/11/2026;2026-11;T1;Eyupspor;Kocaelispor;HMS 2;0-2;True;0-2;True;True;;
+07/11/2026;2026-11;T1;Samsunspor;Konyaspor;ÇŞ X2;1-1;True;1-0;False;False;;
+07/11/2026;2026-11;T1;Galatasaray;Amedspor;MS 1;3-2;True;4-3;True;False;;
+07/11/2026;2026-11;T1;Goztep;Buyuksehyr;MS 1;2-1;True;1-2;False;False;;
+08/11/2026;2026-11;B1;Club Brugge;Anderlecht;MS 1;2-1;True;1-1;False;False;;
+08/11/2026;2026-11;B1;Gent;Kortrijk;HMS 1;2-0;True;1-0;True;False;;
+08/11/2026;2026-11;B1;St. Gilloise;Genk;HMS 1;3-1;True;1-0;True;False;;
+08/11/2026;2026-11;B1;St Truiden;Waregem;ÇŞ X2;1-1;True;4-1;False;False;;
+08/11/2026;2026-11;D1;Freiburg;Union Berlin;MS 1;3-0;True;2-0;True;False;;
+08/11/2026;2026-11;D1;Hoffenheim;Schalke 04;MS 1;2-0;True;2-1;True;False;;
+08/11/2026;2026-11;D2;Bochum;Karlsruhe;MS 1;1-0;True;3-2;True;False;;
+08/11/2026;2026-11;D2;Heidenheim;Hannover;MS 1;2-1;True;2-2;False;False;;
+08/11/2026;2026-11;D2;Magdeburg;St Pauli;HMS 1;3-1;True;4-1;True;False;;
+08/11/2026;2026-11;E0;Brighton;Brentford;HMS 1;4-2;True;2-0;True;False;;
+08/11/2026;2026-11;E0;Crystal Palace;Liverpool;HMS 2;1-3;True;1-3;True;True;;
+08/11/2026;2026-11;E0;Ipswich;Bournemouth;2.5 ÜST;1-2;True;1-2;True;True;;
+08/11/2026;2026-11;E0;Sunderland;Chelsea;MS 2;0-2;True;1-0;False;False;;
+08/11/2026;2026-11;E0;Man United;Aston Villa;HMS 2;1-3;True;4-4;False;False;;
+08/11/2026;2026-11;F1;Rennes;Lille;MS 1;3-1;True;1-2;False;False;;
+08/11/2026;2026-11;F1;Angers;Nice;ÇŞ X2;1-1;True;0-2;True;False;;
+08/11/2026;2026-11;F1;Brest;Lyon;ÇŞ 1X;2-1;True;2-0;True;False;;
+08/11/2026;2026-11;F1;Le Havre;Lorient;MS 2;0-1;True;0-2;True;False;;
+08/11/2026;2026-11;F1;Le Mans;Monaco;ÇŞ 1X;2-1;True;1-1;True;False;;
+08/11/2026;2026-11;F1;Lens;Marseille;2.5 ÜST;2-2;True;1-2;True;False;;
+08/11/2026;2026-11;I1;Napoli;Lazio;HMS 2;2-4;True;1-1;False;False;;
+08/11/2026;2026-11;I1;Monza;Atalanta;ÇŞ 1X;2-1;True;0-1;False;False;;
+08/11/2026;2026-11;I1;Fiorentina;Juventus;MS 2;0-1;True;2-2;False;False;;
+08/11/2026;2026-11;N1;Heerenveen;Feyenoord;2.5 ÜST;0-3;True;5-3;True;False;;
+08/11/2026;2026-11;N1;Twente;Ajax;MS 2;2-4;True;2-2;False;False;;
+08/11/2026;2026-11;N1;Cambuur;PSV Eindhoven;MS 1;4-3;True;2-5;False;False;;
+08/11/2026;2026-11;N1;Utrecht;Nijmegen;MS 1;2-1;True;2-3;False;False;;
+08/11/2026;2026-11;P1;Santa Clara;Gil Vicente;MS 2;0-1;True;1-2;True;False;;
+08/11/2026;2026-11;P1;Guimaraes;Porto;HMS 2;0-3;True;1-2;True;False;;
+08/11/2026;2026-11;P1;Estrela;Benfica;HMS 2;1-3;True;2-3;True;False;;
+08/11/2026;2026-11;SC0;Hearts;Falkirk;MS 2;1-2;True;2-5;True;False;;
+08/11/2026;2026-11;SC0;Celtic;Kilmarnock;HMS 1;3-1;True;1-0;True;False;;
+08/11/2026;2026-11;SP1;Elche;Betis;MS 2;1-2;True;0-2;True;False;;
+08/11/2026;2026-11;SP1;Sociedad;Vallecano;HMS 1;2-0;True;1-0;True;False;;
+08/11/2026;2026-11;SP1;Celta;Levante;MS 1;2-1;True;0-0;False;False;;
+08/11/2026;2026-11;SP1;Villarreal;Getafe;MS 1;1-0;True;2-0;True;False;;
+08/11/2026;2026-11;SP1;Ath Madrid;Barcelona;2.5 ÜST;2-4;True;1-2;True;False;;
+08/11/2026;2026-11;SP2;Girona;Almeria;ÇŞ X2;2-2;True;0-1;True;False;;
+08/11/2026;2026-11;SP2;Sp Gijon;Valladolid;HMS 1;2-0;True;1-2;False;False;;
+08/11/2026;2026-11;T1;Rizespor;Erzurumspor;MS 2;1-2;True;2-1;False;False;;
+08/11/2026;2026-11;T1;Corum;Fenerbahce;2.5 ÜST;2-1;True;0-5;True;False;;
+08/11/2026;2026-11;T1;Alanyaspor;Trabzonspor;HMS 2;1-3;True;0-2;True;False;;
+08/11/2026;2026-11;T1;Besiktas;Genclerbirligi;HMS 1;3-0;True;3-0;True;True;;
+13/11/2026;2026-11;SP2;Leganes;Burgos;HMS 2;1-3;True;3-1;False;False;;
+14/11/2026;2026-11;SP2;Valladolid;Castellon;ÇŞ X2;3-3;True;0-1;True;False;;
+14/11/2026;2026-11;SP2;Sociedad B;Sp Gijon;MS 2;0-1;True;2-2;False;False;;
+14/11/2026;2026-11;SP2;Almeria;Andorra;HMS 1;3-1;True;2-1;True;False;;
+14/11/2026;2026-11;SP2;Mallorca;Cordoba;MS 1;2-1;True;3-3;False;False;;
+14/11/2026;2026-11;SP2;Oviedo;Girona;MS 1;1-0;True;1-2;False;False;;
+15/11/2026;2026-11;SP2;Tenerife;Ceuta;MS 1;2-1;True;2-0;True;False;;
+15/11/2026;2026-11;SP2;Granada;Las Palmas;MS 1;3-2;True;1-0;True;False;;
+15/11/2026;2026-11;SP2;Eibar;Cadiz;MS 1;2-1;True;1-1;False;False;;
+15/11/2026;2026-11;SP2;Eldense;Sabadell;ÇŞ 1X;1-1;True;2-0;True;False;;
+16/11/2026;2026-11;SP2;Albacete;Celta B;HMS 1;3-1;True;1-0;True;False;;
+20/11/2026;2026-11;B1;Cercle Brugge;Westerlo;ÇŞ X2;1-2;True;1-0;False;False;;
+20/11/2026;2026-11;D1;Bayern Munich;FC Koln;HMS 1;5-1;True;1-1;False;False;;
+20/11/2026;2026-11;D2;Bielefeld;Magdeburg;MS 1;2-0;True;1-2;False;False;;
+20/11/2026;2026-11;D2;Darmstadt;Heidenheim;MS 1;1-0;True;3-1;True;False;;
+20/11/2026;2026-11;F1;Troyes;Le Havre;MS 1;3-2;True;3-1;True;False;;
+20/11/2026;2026-11;SP1;Ath Bilbao;Espanol;MS 1;2-1;True;0-1;False;False;;
+20/11/2026;2026-11;SP2;Andorra;Leganes;MS 1;1-0;True;1-3;False;False;;
+21/11/2026;2026-11;B1;Charleroi;St Truiden;HMS 1;3-1;True;2-2;False;False;;
+21/11/2026;2026-11;B1;Genk;RAAL La Louviere;HMS 1;3-1;True;3-0;True;False;;
+21/11/2026;2026-11;B1;Mechelen;Club Brugge;MS 2;0-3;True;1-5;True;False;;
+21/11/2026;2026-11;B1;Waregem;Antwerp;2.5 ÜST;1-2;True;2-2;True;False;;
+21/11/2026;2026-11;D1;Ein Frankfurt;Hoffenheim;MS 1;3-1;True;1-0;True;False;;
+21/11/2026;2026-11;D1;Elversberg;Freiburg;ÇŞ 1X;3-2;True;0-1;False;False;;
+21/11/2026;2026-11;D1;Leverkusen;Paderborn;MS 1;2-0;True;4-0;True;False;;
+21/11/2026;2026-11;D1;M'gladbach;Dortmund;HMS 2;0-2;True;0-1;True;False;;
+21/11/2026;2026-11;D1;Union Berlin;RB Leipzig;MS 2;0-1;True;1-5;True;False;;
+21/11/2026;2026-11;D1;Schalke 04;Stuttgart;HMS 2;0-2;True;0-0;False;False;;
+21/11/2026;2026-11;D2;Hannover;Greuther Furth;MS 1;2-1;True;2-1;True;True;;
+21/11/2026;2026-11;D2;Nurnberg;Braunschweig;HMS 1;2-0;True;1-2;False;False;;
+21/11/2026;2026-11;D2;Wolfsburg;Holstein Kiel;HMS 1;3-0;True;3-0;True;True;;
+21/11/2026;2026-11;D2;St Pauli;Bochum;ÇŞ X2;1-1;True;2-0;False;False;;
+21/11/2026;2026-11;E0;Man City;Fulham;MS 1;2-1;True;1-1;False;False;;
+21/11/2026;2026-11;E0;Aston Villa;Sunderland;MS 1;2-1;True;0-0;False;False;;
+21/11/2026;2026-11;E0;Bournemouth;Nott'm Forest;HMS 1;2-0;True;2-0;True;True;;
+21/11/2026;2026-11;E0;Chelsea;Leeds;MS 1;3-1;True;1-4;False;False;;
+21/11/2026;2026-11;E0;Coventry;Crystal Palace;MS 1;2-1;True;3-2;True;False;;
+21/11/2026;2026-11;E0;Tottenham;Ipswich;HMS 1;4-2;True;2-0;True;False;;
+21/11/2026;2026-11;E0;Newcastle;Arsenal;HMS 2;0-2;True;2-2;False;False;;
+21/11/2026;2026-11;E1;Millwall;QPR;MS 1;2-1;True;0-1;False;False;;
+21/11/2026;2026-11;E1;Norwich;Cardiff;MS 1;2-1;True;2-1;True;True;;
+21/11/2026;2026-11;E1;Southampton;Derby;HMS 1;3-1;True;2-0;True;False;;
+21/11/2026;2026-11;E1;Bolton;Portsmouth;MS 2;1-2;True;1-1;False;False;;
+21/11/2026;2026-11;E1;Lincoln;Wrexham;MS 1;1-0;True;0-1;False;False;;
+21/11/2026;2026-11;E1;Middlesbrough;Bristol City;ÇŞ 1X;2-1;True;2-0;True;False;;
+21/11/2026;2026-11;E1;Sheffield United;Watford;HMS 1;2-0;True;4-0;True;False;;
+21/11/2026;2026-11;E1;Stoke;Birmingham;MS 1;2-1;True;1-0;True;False;;
+21/11/2026;2026-11;E1;Swansea;West Brom;MS 2;2-3;True;2-2;False;False;;
+21/11/2026;2026-11;E1;West Ham;Preston;MS 1;3-1;True;1-1;False;False;;
+21/11/2026;2026-11;E1;Wolves;Charlton;HMS 1;2-0;True;2-1;True;False;;
+21/11/2026;2026-11;F1;Nice;Paris SG;MS 2;1-2;True;2-3;True;False;;
+21/11/2026;2026-11;F1;Lens;Toulouse;ÇŞ 1X;2-2;True;1-1;True;False;;
+21/11/2026;2026-11;F1;Lille;Lyon;HMS 1;2-0;True;0-1;False;False;;
+21/11/2026;2026-11;F1;Monaco;Auxerre;MS 1;3-2;True;1-1;False;False;;
+21/11/2026;2026-11;F1;Strasbourg;Brest;MS 2;1-2;True;0-1;True;False;;
+21/11/2026;2026-11;I1;Como;Cagliari;HMS 1;3-1;True;2-0;True;False;;
+21/11/2026;2026-11;I1;Lazio;Lecce;HMS 1;2-0;True;3-0;True;False;;
+21/11/2026;2026-11;I1;Parma;Roma;HMS 2;1-3;True;1-5;True;False;;
+21/11/2026;2026-11;I1;Napoli;Torino;ÇŞ X2;1-1;True;1-0;False;False;;
+21/11/2026;2026-11;N1;Nijmegen;PSV Eindhoven;MS 2;2-3;True;1-4;True;False;;
+21/11/2026;2026-11;N1;Feyenoord;Excelsior;HMS 1;2-0;True;2-3;False;False;;
+21/11/2026;2026-11;N1;Utrecht;Cambuur;MS 2;1-2;True;2-3;True;False;;
+21/11/2026;2026-11;N1;Groningen;Heerenveen;MS 2;1-2;True;1-3;True;False;;
+21/11/2026;2026-11;N1;Telstar;Zwolle;ÇŞ 1X;2-1;True;1-3;False;False;;
+21/11/2026;2026-11;SC0;Celtic;St Mirren;HMS 1;3-0;True;4-1;True;False;;
+21/11/2026;2026-11;SC0;Falkirk;St Johnstone;HMS 1;3-1;True;2-1;True;False;;
+21/11/2026;2026-11;SC0;Hibernian;Dundee United;MS 2;1-2;True;0-4;True;False;;
+21/11/2026;2026-11;SC0;Kilmarnock;Aberdeen;MS 1;2-0;True;2-4;False;False;;
+21/11/2026;2026-11;SC0;Dundee;Hearts;2.5 ÜST;2-1;True;0-8;True;False;;
+21/11/2026;2026-11;SC0;Motherwell;Rangers;MS 2;1-2;True;1-2;True;True;;
+21/11/2026;2026-11;SP1;Sevilla;Betis;ÇŞ X2;1-1;True;1-1;True;True;;
+21/11/2026;2026-11;SP1;Real Madrid;Celta;HMS 1;2-0;True;2-1;True;False;;
+21/11/2026;2026-11;SP2;Sabadell;Granada;HMS 2;1-3;True;1-1;False;False;;
+21/11/2026;2026-11;SP2;Sociedad B;Cadiz;MS 1;2-1;True;0-3;False;False;;
+21/11/2026;2026-11;SP2;Castellon;Eldense;HMS 1;3-1;True;2-0;True;False;;
+21/11/2026;2026-11;SP2;Tenerife;Mallorca;ÇŞ 1X;2-1;True;0-0;True;False;;
+21/11/2026;2026-11;T1;Genclerbirligi;Gaziantep;MS 1;2-1;True;1-0;True;False;;
+21/11/2026;2026-11;T1;Amedspor;Rizespor;HMS 1;3-1;True;0-2;False;False;;
+21/11/2026;2026-11;T1;Galatasaray;Samsunspor;HMS 1;3-1;True;2-1;True;False;;
+21/11/2026;2026-11;T1;Kocaelispor;Fenerbahce;MS 2;1-2;True;2-2;False;False;;
+22/11/2026;2026-11;B1;Beveren;Gent;HMS 2;1-3;True;1-0;False;False;;
+22/11/2026;2026-11;B1;Kortrijk;St. Gilloise;HMS 2;1-3;True;0-1;True;False;;
+22/11/2026;2026-11;B1;Anderlecht;Oud-Heverlee Leuven;MS 1;2-0;True;1-0;True;False;;
+22/11/2026;2026-11;B1;Lommel SK;Standard;MS 1;3-2;True;1-2;False;False;;
+22/11/2026;2026-11;D1;Augsburg;Mainz;ÇŞ X2;2-3;True;3-1;False;False;;
+22/11/2026;2026-11;D1;Werder Bremen;Hamburg;MS 1;2-1;True;4-0;True;False;;
+22/11/2026;2026-11;D2;Cottbus;Hertha;HMS 2;2-4;True;0-4;True;False;;
+22/11/2026;2026-11;D2;Kaiserslautern;Dresden;MS 1;2-1;True;2-2;False;False;;
+22/11/2026;2026-11;D2;Karlsruhe;Osnabruck;HMS 1;3-1;True;0-0;False;False;;
+22/11/2026;2026-11;E0;Hull;Brighton;MS 2;1-2;True;2-0;False;False;;
+22/11/2026;2026-11;E0;Liverpool;Man United;MS 1;2-1;True;4-0;True;False;;
+22/11/2026;2026-11;E1;Burnley;Blackburn;ÇŞ X2;1-1;True;2-2;True;False;;
+22/11/2026;2026-11;F1;Paris FC;Angers;HMS 1;3-1;True;4-0;True;False;;
+22/11/2026;2026-11;F1;Lorient;Rennes;MS 1;2-1;True;1-1;False;False;;
+22/11/2026;2026-11;F1;Marseille;Le Mans;HMS 1;3-1;True;2-3;False;False;;
+22/11/2026;2026-11;I1;Juventus;Venezia;HMS 1;2-0;True;4-0;True;False;;
+22/11/2026;2026-11;I1;Bologna;Udinese;MS 1;2-1;True;1-1;False;False;;
+22/11/2026;2026-11;I1;Sassuolo;Genoa;MS 2;1-2;True;0-2;True;False;;
+22/11/2026;2026-11;I1;Milan;Frosinone;MS 1;3-2;True;5-1;True;False;;
+22/11/2026;2026-11;I1;Atalanta;Inter;HMS 2;0-2;True;4-4;False;False;;
+22/11/2026;2026-11;N1;Twente;Willem II;HMS 1;3-1;True;2-1;True;False;;
+22/11/2026;2026-11;N1;Ajax;Den Haag;HMS 1;2-0;True;3-0;True;False;;
+22/11/2026;2026-11;N1;Sparta Rotterdam;AZ Alkmaar;KG VAR;2-1;True;1-5;True;False;;
+22/11/2026;2026-11;N1;Go Ahead Eagles;For Sittard;ÇŞ 1X;2-2;True;0-1;False;False;;
+22/11/2026;2026-11;SP1;Barcelona;Villarreal;HMS 1;4-1;True;3-2;True;False;;
+22/11/2026;2026-11;SP1;Santander;Sociedad;ÇŞ X2;2-3;True;3-2;False;False;;
+22/11/2026;2026-11;SP1;Osasuna;Malaga;MS 1;2-1;True;1-0;True;False;;
+22/11/2026;2026-11;SP1;Getafe;Ath Madrid;HMS 2;0-2;True;0-3;True;False;;
+22/11/2026;2026-11;SP2;Cordoba;Oviedo;ÇŞ 1X;2-1;True;3-0;True;False;;
+22/11/2026;2026-11;SP2;Sp Gijon;Las Palmas;ÇŞ 1X;1-1;True;0-2;False;False;;
+22/11/2026;2026-11;SP2;Celta B;Valladolid;ÇŞ X2;2-2;True;1-1;True;False;;
+22/11/2026;2026-11;SP2;Girona;Eibar;MS 1;3-2;True;2-1;True;False;;
+22/11/2026;2026-11;SP2;Burgos;Albacete;MS 1;2-1;True;1-0;True;False;;
+22/11/2026;2026-11;T1;Erzurumspor;Goztep;MS 2;1-2;True;0-1;True;False;;
+22/11/2026;2026-11;T1;Kasimpasa;Alanyaspor;HMS 1;3-1;True;2-1;True;False;;
+22/11/2026;2026-11;T1;Konyaspor;Besiktas;ÇŞ X2;0-2;True;2-4;True;False;;
+22/11/2026;2026-11;T1;Trabzonspor;Eyupspor;HMS 1;3-0;True;1-0;True;False;;
+23/11/2026;2026-11;I1;Monza;Fiorentina;ÇŞ X2;2-2;True;3-0;False;False;;
+23/11/2026;2026-11;SP2;Levante;Elche;ÇŞ X2;1-1;True;1-1;True;True;;
+23/11/2026;2026-11;SP2;Ceuta;Almeria;HMS 2;0-2;True;2-3;True;False;;
+23/11/2026;2026-11;T1;Buyuksehyr;Corum;MS 1;4-3;True;4-2;True;False;;
+24/11/2026;2026-11;E1;Bristol City;Wrexham;MS 2;0-1;True;1-1;False;False;;
+24/11/2026;2026-11;E1;Cardiff;Preston;HMS 1;3-1;True;0-4;False;False;;
+24/11/2026;2026-11;E1;Charlton;Lincoln;MS 1;2-1;True;4-0;True;False;;
+24/11/2026;2026-11;E1;Middlesbrough;Swansea;HMS 1;3-1;True;2-1;True;False;;
+24/11/2026;2026-11;E1;Norwich;QPR;MS 1;2-1;True;1-1;False;False;;
+24/11/2026;2026-11;E1;Portsmouth;West Ham;MS 1;4-3;True;1-0;True;False;;
+24/11/2026;2026-11;E1;Sheffield United;Southampton;MS 1;2-1;True;1-1;False;False;;
+24/11/2026;2026-11;E1;Wolves;Derby;HMS 1;2-0;True;3-0;True;False;;
+24/11/2026;2026-11;SC0;Hibernian;Dundee;ÇŞ X2;1-1;True;2-1;False;False;;
+24/11/2026;2026-11;SC0;Rangers;Aberdeen;HMS 1;2-0;True;3-2;True;False;;
+25/11/2026;2026-11;E1;Bolton;West Brom;MS 2;1-2;True;1-3;True;False;;
+25/11/2026;2026-11;E1;Burnley;Birmingham;MS 2;1-2;True;0-2;True;False;;
+25/11/2026;2026-11;E1;Watford;Blackburn;ÇŞ 1X;1-1;True;0-1;False;False;;
+25/11/2026;2026-11;E1;Stoke;Millwall;HMS 1;2-0;True;2-1;True;False;;
+27/11/2026;2026-11;B1;Oud-Heverlee Leuven;Kortrijk;MS 1;2-0;False;;;;🟢 [YÜKSEK GÜVEN];Fark:85.0 | ÜST:0.47 | KG:0.39 | Tempo:2.30
+27/11/2026;2026-11;D1;Werder Bremen;M'gladbach;HMS 1;3-1;False;;;;🟢 [YÜKSEK GÜVEN];Fark:98.8 | ÜST:0.69 | KG:0.69 | Tempo:2.90
+27/11/2026;2026-11;D1;Bochum;Darmstadt;HMS 1;2-0;False;;;;🟢 [YÜKSEK GÜVEN];Fark:88.9 | ÜST:0.56 | KG:0.60 | Tempo:2.60
+27/11/2026;2026-11;D1;Heidenheim;Nurnberg;MS 2;2-3;False;;;;🟢 [YÜKSEK GÜVEN];Fark:71.5 | ÜST:0.69 | KG:0.65 | Tempo:2.90
+27/11/2026;2026-11;E0;Nott'm Forest;Chelsea;ÇŞ X2;1-1;False;;;;🟡 [ORTA GÜVEN];Fark:28.5 | ÜST:0.41 | KG:0.55 | Tempo:2.30
+27/11/2026;2026-11;E1;Southampton;Middlesbrough;MS 1;2-1;False;;;;🟢 [YÜKSEK GÜVEN];Fark:68.4 | ÜST:0.46 | KG:0.67 | Tempo:2.20
+27/11/2026;2026-11;F1;Brest;Paris FC;MS 2;1-2;False;;;;🟢 [YÜKSEK GÜVEN];Fark:20.4 | ÜST:0.73 | KG:0.53 | Tempo:2.90
+27/11/2026;2026-11;I1;Venezia;Bologna;HMS 2;1-3;False;;;;🟢 [YÜKSEK GÜVEN];Fark:112.6 | ÜST:0.49 | KG:0.40 | Tempo:2.70
+27/11/2026;2026-11;N1;Groningen;Willem II;MS 1;2-1;False;;;;🟢 [YÜKSEK GÜVEN];Fark:42.5 | ÜST:0.73 | KG:0.78 | Tempo:5.10
+27/11/2026;2026-11;P1;Maritimo;Nacional;ÇŞ X2;1-1;False;;;;🔴 [RİSKLİ];Fark:4.9 | ÜST:0.47 | KG:0.44 | Tempo:2.80
+27/11/2026;2026-11;SP2;Levante;Santander;ÇŞ X2;0-1;False;;;;🟡 [ORTA GÜVEN];Fark:21.2 | ÜST:0.52 | KG:0.53 | Tempo:2.70
+27/11/2026;2026-11;SP2;Leganes;Sabadell;MS 1;2-1;False;;;;🟢 [YÜKSEK GÜVEN];Fark:44.0 | ÜST:0.46 | KG:0.48 | Tempo:3.00
+27/11/2026;2026-11;T1;Alanyaspor;Konyaspor;ÇŞ 1X;2-1;False;;;;🟡 [ORTA GÜVEN];Fark:14.1 | ÜST:0.60 | KG:0.50 | Tempo:3.00
+27/11/2026;2026-11;T1;Rizespor;Kasimpasa;MS 2;0-1;False;;;;🟢 [YÜKSEK GÜVEN];Fark:83.5 | ÜST:0.53 | KG:0.52 | Tempo:3.00
