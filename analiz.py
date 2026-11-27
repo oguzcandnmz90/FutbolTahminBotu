@@ -39,7 +39,8 @@ BIG_TEAMS = ['Real Madrid','Barcelona','Bayern Munich','Man City','Liverpool','A
              'Galatasaray','Fenerbahce','Besiktas','Trabzonspor','Ajax','PSV','Dortmund','Leverkusen']
 
 LIG_CARPANLARI = {
-    'E0': 1.18,
+    'E0': 1.12,
+    'N1': 1.15,
     'D1': 1.16,
     'SP1': 1.16,
     'I1': 1.14,
@@ -47,6 +48,12 @@ LIG_CARPANLARI = {
     'P1': 1.12,
     'T1': 1.06,
     'E1': 0.85
+}
+
+# Lig bazlı dengeli maç (abs_diff < 15) eşikleri: (ust_kg_esik, alt_kgyok_esik)
+LIG_GOL_ESIKLERI = {
+    'E0': (0.65, 0.38),
+    'N1': (0.58, 0.42),
 }
 
 # --- YARDIMCI FONKSİYONLAR ---
@@ -575,15 +582,17 @@ for row in bugun_maclari:
         final_ust_skor *= 1.05
         final_kg_skor *= 1.03
 
+    ust_kg_esik, alt_kgyok_esik = LIG_GOL_ESIKLERI.get(lig_kodu, (0.60, 0.42))
+
     # MS 0 kaldırıldı: dengeli maçlarda önce ÜST / KG VAR / ALT / KG YOK sinyallerine bakılır
     if abs_diff < 15:
-        if final_ust_skor >= 0.60:
+        if final_ust_skor >= ust_kg_esik:
             t_str = "2.5 ÜST"
-        elif final_kg_skor >= 0.60:
+        elif final_kg_skor >= ust_kg_esik:
             t_str = "KG VAR"
-        elif final_ust_skor <= 0.42 or mac_tempo < 2.0:
+        elif final_ust_skor <= alt_kgyok_esik or mac_tempo < 2.0:
             t_str = "2.5 ALT"
-        elif final_kg_skor <= 0.42:
+        elif final_kg_skor <= alt_kgyok_esik:
             t_str = "KG YOK"
         else:
             t_str = "ÇŞ 1X" if diff >= 0 else "ÇŞ X2"
