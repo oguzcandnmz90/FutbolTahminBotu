@@ -575,19 +575,6 @@
         "tarih": "07/11/2026",
         "ay": "2026-11",
         "lig": "SP1",
-        "ev": "Malaga",
-        "dep": "Santander",
-        "tahmin": "MS 0",
-        "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "1-2",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "07/11/2026",
-        "ay": "2026-11",
-        "lig": "SP1",
         "ev": "Espanol",
         "dep": "La Coruna",
         "tahmin": "ÇŞ X2",
@@ -635,19 +622,6 @@
         "gercek_skor": "2-1",
         "tuttu": true,
         "skor_tuttu": true
-    },
-    {
-        "tarih": "07/11/2026",
-        "ay": "2026-11",
-        "lig": "SP2",
-        "ev": "Cadiz",
-        "dep": "Oviedo",
-        "tahmin": "MS 0",
-        "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "1-2",
-        "tuttu": false,
-        "skor_tuttu": false
     },
     {
         "tarih": "07/11/2026",
@@ -776,19 +750,6 @@
         "skor_tahmini": "1-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "4-1",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "D1",
-        "ev": "FC Koln",
-        "dep": "Leverkusen",
-        "tahmin": "MS 0",
-        "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "1-2",
         "tuttu": false,
         "skor_tuttu": false
     },
@@ -1017,38 +978,12 @@
         "tarih": "08/11/2026",
         "ay": "2026-11",
         "lig": "I1",
-        "ev": "Genoa",
-        "dep": "Milan",
-        "tahmin": "MS 0",
-        "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "1-2",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "I1",
         "ev": "Monza",
         "dep": "Atalanta",
         "tahmin": "ÇŞ 1X",
         "skor_tahmini": "2-1",
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-1",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "I1",
-        "ev": "Inter",
-        "dep": "Como",
-        "tahmin": "MS 0",
-        "skor_tahmini": "3-3",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "2-0",
         "tuttu": false,
         "skor_tuttu": false
     },
@@ -1095,19 +1030,6 @@
         "tarih": "08/11/2026",
         "ay": "2026-11",
         "lig": "N1",
-        "ev": "AZ Alkmaar",
-        "dep": "Groningen",
-        "tahmin": "MS 0",
-        "skor_tahmini": "0-0",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "4-3",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "N1",
         "ev": "Cambuur",
         "dep": "PSV Eindhoven",
         "tahmin": "MS 1",
@@ -1129,18 +1051,6 @@
         "gercek_skor": "2-3",
         "tuttu": false,
         "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "P1",
-        "ev": "Estoril",
-        "dep": "Maritimo",
-        "tahmin": "MS 2",
-        "skor_tahmini": "0-1",
-        "sonuc_kontrol_edildi": false,
-        "gercek_skor": null,
-        "tuttu": null
     },
     {
         "tarih": "08/11/2026",
@@ -1179,19 +1089,6 @@
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "2-3",
         "tuttu": true,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "P1",
-        "ev": "Rio Ave",
-        "dep": "Sp Braga",
-        "tahmin": "MS 0",
-        "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "0-1",
-        "tuttu": false,
         "skor_tuttu": false
     },
     {
@@ -1296,19 +1193,6 @@
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "0-1",
         "tuttu": true,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "08/11/2026",
-        "ay": "2026-11",
-        "lig": "SP2",
-        "ev": "Las Palmas",
-        "dep": "Eldense",
-        "tahmin": "MS 0",
-        "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "2-0",
-        "tuttu": false,
         "skor_tuttu": false
     },
     {
@@ -2290,32 +2174,6 @@
         "tarih": "21/11/2026",
         "ay": "2026-11",
         "lig": "SP1",
-        "ev": "Alaves",
-        "dep": "La Coruna",
-        "tahmin": "MS 0",
-        "skor_tahmini": "2-2",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "3-1",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "21/11/2026",
-        "ay": "2026-11",
-        "lig": "SP1",
-        "ev": "Vallecano",
-        "dep": "Valencia",
-        "tahmin": "MS 0",
-        "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "0-1",
-        "tuttu": false,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "21/11/2026",
-        "ay": "2026-11",
-        "lig": "SP1",
         "ev": "Sevilla",
         "dep": "Betis",
         "tahmin": "ÇŞ X2",
@@ -2921,19 +2779,6 @@
         "sonuc_kontrol_edildi": true,
         "gercek_skor": "1-0",
         "tuttu": true,
-        "skor_tuttu": false
-    },
-    {
-        "tarih": "23/11/2026",
-        "ay": "2026-11",
-        "lig": "E0",
-        "ev": "Brentford",
-        "dep": "Everton",
-        "tahmin": "MS 0",
-        "skor_tahmini": "1-1",
-        "sonuc_kontrol_edildi": true,
-        "gercek_skor": "4-0",
-        "tuttu": false,
         "skor_tuttu": false
     },
     {
