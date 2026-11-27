@@ -50,7 +50,6 @@ LIG_CARPANLARI = {
     'E1': 0.85
 }
 
-# Lig bazlı dengeli maç (abs_diff < 15) eşikleri: (ust_kg_esik, alt_kgyok_esik)
 LIG_GOL_ESIKLERI = {
     'E0': (0.65, 0.38),
     'N1': (0.58, 0.42),
@@ -90,6 +89,13 @@ def mac_ligini_tespit_et(row, db, ev, dep, referans_tarih=None):
         return dep_lig
 
     return "Bilinmiyor"
+
+def guven_seviyesi_belirle(abs_diff, final_ust_skor, final_kg_skor):
+    if abs_diff >= 35 or final_ust_skor >= 0.68 or final_kg_skor >= 0.68:
+        return "🟢 [YÜKSEK GÜVEN]"
+    if abs_diff >= 15 or final_ust_skor >= 0.55 or final_kg_skor >= 0.55:
+        return "🟡 [ORTA GÜVEN]"
+    return "🔴 [RİSKLİ]"
 
 def lig_ortalamasi_hesapla(df, lig_kodu):
     if not gecerli_lig_mi(lig_kodu):
@@ -584,7 +590,6 @@ for row in bugun_maclari:
 
     ust_kg_esik, alt_kgyok_esik = LIG_GOL_ESIKLERI.get(lig_kodu, (0.60, 0.42))
 
-    # MS 0 kaldırıldı: dengeli maçlarda önce ÜST / KG VAR / ALT / KG YOK sinyallerine bakılır
     if abs_diff < 15:
         if final_ust_skor >= ust_kg_esik:
             t_str = "2.5 ÜST"
@@ -603,6 +608,9 @@ for row in bugun_maclari:
         t_str = "MS 1" if diff > 0 else "MS 2"
     else:
         t_str = "HMS 1" if diff > 0 else "HMS 2"
+
+    guven_etiketi = guven_seviyesi_belirle(abs_diff, final_ust_skor, final_kg_skor)
+    sinyal_ozeti = f"Fark:{abs_diff:.1f} | ÜST:{final_ust_skor:.2f} | KG:{final_kg_skor:.2f} | Tempo:{mac_tempo:.2f}"
 
     lig_ort = lig_ortalamasi_hesapla(db, lig_kodu)
     ev_ev_mac = bu_sezon_ev[bu_sezon_ev['HomeTeam']==ev]
@@ -644,7 +652,7 @@ for row in bugun_maclari:
     iy_skor = akilli_iy_skor_tahmin(h_skor, ev_l, dep_l, bu_sezon_ev, bu_sezon_dep, ev, dep, iy_skor_l)
     iy2_skor = akilli_iy2_skor_tahmin(h_skor, iy_skor)
 
-    kasa_havuzu.append((abs_diff, f"💎 {ev}-{dep} | {t_str}"))
+    kasa_havuzu.append((abs_diff, f"💎 {ev}-{dep} | {t_str} {guven_etiketi}"))
 
     bugun_log_listesi.append({
         "tarih": bugun,
@@ -654,13 +662,18 @@ for row in bugun_maclari:
         "dep": dep,
         "tahmin": t_str,
         "skor_tahmini": h_skor,
+        "guven_etiketi": guven_etiketi,
+        "sinyal_ozeti": sinyal_ozeti,
         "sonuc_kontrol_edildi": False,
         "gercek_skor": None,
         "tuttu": None,
         "skor_tuttu": None
     })
 
-    rapor = (f"⏰ {ham_saat} | {ev} - {dep}\n🎯 TAHMİN: {t_str}\n"
+    rapor = (f"⏰ {ham_saat} | [{lig_kodu}] {ev} - {dep}\n"
+             f"🛡️ GÜVEN: {guven_etiketi}\n"
+             f"🎯 TAHMİN: {t_str}\n"
+             f"📶 SİNYALLER: {sinyal_ozeti}\n"
              f"🎲 SKOR TAHMİNİ: {h_skor} (%{h_prob})\n"
              f"⏱️ İLK YARI SKORU: {iy_skor}\n"
              f"⏱️ İKİNCİ YARI SKORU: {iy2_skor}\n"
