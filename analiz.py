@@ -38,7 +38,16 @@ BIG_TEAMS = ['Real Madrid','Barcelona','Bayern Munich','Man City','Liverpool','A
              'Inter','Juventus','Milan','Napoli','Paris SG','Benfica','Porto','Sporting CP',
              'Galatasaray','Fenerbahce','Besiktas','Trabzonspor','Ajax','PSV','Dortmund','Leverkusen']
 
-LIG_CARPANLARI = {'E0': 1.18, 'D1': 1.16, 'SP1': 1.16, 'I1': 1.14, 'F1': 1.12, 'T1': 1.06, 'E1': 0.85}
+LIG_CARPANLARI = {
+    'E0': 1.18,
+    'D1': 1.16,
+    'SP1': 1.16,
+    'I1': 1.14,
+    'F1': 1.12,
+    'P1': 1.12,
+    'T1': 1.06,
+    'E1': 0.85
+}
 
 # --- YARDIMCI FONKSİYONLAR ---
 def gecerli_lig_mi(deger):
@@ -60,11 +69,9 @@ def takim_son_ligi_bul(db, takim, referans_tarih=None):
     return son_lig if gecerli_lig_mi(son_lig) else None
 
 def mac_ligini_tespit_et(row, db, ev, dep, referans_tarih=None):
-    # 1. Öncelik: Fikstür satırındaki Div
     if isinstance(row, dict) and gecerli_lig_mi(row.get('Div')):
         return str(row.get('Div')).strip()
 
-    # 2. Öncelik: İki takımın ortak/son lig verisi
     ev_lig = takim_son_ligi_bul(db, ev, referans_tarih)
     dep_lig = takim_son_ligi_bul(db, dep, referans_tarih)
 
@@ -191,7 +198,6 @@ def gecmis_uclu_sonuclarini_guncelle(db):
                 (db['Date'].dt.date <= (kayit_tarihi.date() + timedelta(days=2)))
             ]
 
-        # Eksik/nan lig varsa gerçek veriden bulmaya çalış (uydurma lig yazma)
         if not gecerli_lig_mi(k.get('lig')):
             bulunan_lig = None
             if not mac_bulundu.empty and 'Div' in mac_bulundu.columns:
@@ -227,6 +233,7 @@ def gecmis_uclu_sonuclarini_guncelle(db):
                 if "2.5 ÜST" in tahmin and (fthg + ftag) >= 3: tuttu = True
                 elif "2.5 ALT" in tahmin and (fthg + ftag) < 3: tuttu = True
                 elif "KG VAR" in tahmin and fthg > 0 and ftag > 0: tuttu = True
+                elif "KG YOK" in tahmin and not (fthg > 0 and ftag > 0): tuttu = True
                 elif "MS 1" in tahmin and son_mac['FTR'] == 'H': tuttu = True
                 elif "MS 2" in tahmin and son_mac['FTR'] == 'A': tuttu = True
                 elif "MS 0" in tahmin and son_mac['FTR'] == 'D': tuttu = True
@@ -568,11 +575,18 @@ for row in bugun_maclari:
         final_ust_skor *= 1.05
         final_kg_skor *= 1.03
 
+    # MS 0 kaldırıldı: dengeli maçlarda önce ÜST / KG VAR / ALT / KG YOK sinyallerine bakılır
     if abs_diff < 15:
-        if final_ust_skor >= 0.65: t_str = "2.5 ÜST"
-        elif final_kg_skor >= 0.65: t_str = "KG VAR"
-        elif abs_diff < 5: t_str = "MS 0"
-        else: t_str = "ÇŞ 1X" if diff > 0 else "ÇŞ X2"
+        if final_ust_skor >= 0.60:
+            t_str = "2.5 ÜST"
+        elif final_kg_skor >= 0.60:
+            t_str = "KG VAR"
+        elif final_ust_skor <= 0.42 or mac_tempo < 2.0:
+            t_str = "2.5 ALT"
+        elif final_kg_skor <= 0.42:
+            t_str = "KG YOK"
+        else:
+            t_str = "ÇŞ 1X" if diff >= 0 else "ÇŞ X2"
     elif abs_diff <= 35:
         if diff > 0: t_str = "MS 1" if ev_sav < 0.80 else "ÇŞ 1X"
         else: t_str = "MS 2" if dep_sav < 0.80 else "ÇŞ X2"
